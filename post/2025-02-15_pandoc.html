@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Note despre Pandoc | negoitescu</title>
+	<link rel="shortcut icon" href="../res/favicon.png">
+	<link href="../style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+	<div id="main">
+	<p>negoitescu &mdash; <a href="../">[home]</a></p>
+	<h1>Note despre Pandoc</h1>
+	<nav id="TOC" role="doc-toc">
+		<h2 id="toc-title"></h2>
+		<ul>
+<li><a href="#inceput" id="toc-inceput">Pentru început...</a></li>
+<li><a href="#titlu" id="toc-titlu">Formatarea unei foi de
+titlu</a></li>
+<li><a href="#font" id="toc-font">Schimbarea dimensiunii
+fontului</a></li>
+<li><a href="#cuprins" id="toc-cuprins">Introducerea
+cuprinsului</a></li>
+<li><a href="#numerotare" id="toc-numerotare">Numerotarea
+paginilor</a></li>
+<li><a href="#alineat" id="toc-alineat">Setarea alineatelor</a></li>
+</ul>
+	</nav>
+	<p>Semestrul anterior, am început folosirea unei noi metode de a crea și
+edita articole și cărți, anume <a href="https://pandoc.org/">Pandoc</a>,
+care permite, pe lângă altele, folosirea limbajului de marcare Markdown
+concomitent cu funcțiile motorului <a
+href="https://www.latex-project.org/">LaTex</a>, pe care Pandoc
+rulează.</p>
+<div class="pic">
+<p><img src="../res/pandoc.jpg" title="Exemplu utilizare Pandoc" /></p>
+<p>Exemplu utilizare Pandoc</p>
+</div>
+<p>Site-ul oficial Pandoc conține un <a
+href="https://pandoc.org/chunkedhtml-demo/8-pandocs-markdown.html">ghid</a>
+destul de amănunțit, dar a trebuit să caut mai multe informații și din
+alte surse pentru unele funcții de care am avut nevoie în redactarea
+unei mici cărți în Pandoc. Așadar, voi trece peste toate funcțiile pe
+care le-am descoperit până acum și unele sfaturi.</p>
+<p>💾 <em>Puteți descărca un exemplu care conține toate funcțiile pe
+care le-am menționat <a href="../res/Pandoc.md">aici</a> și documentul
+precompilat într-un PDF <a href="../res/Pandoc.pdf">aici</a></em>.</p>
+<h2 id="inceput">Pentru început...</h2>
+<p>Fără vreo modificare, Pandoc va folosi tema standard a motorului
+LaTex, deci documentele vor avea marginile foarte mari. Pentru a rezolva
+asta, trebuie să includem un antet cu marginile specificate. În acest
+antet, putem seta și alte opțiuni ale documentului care ne pot fi
+utile:</p>
+<pre><code>---
+title: Primul meu document
+author: Nume Exemplu
+lang: ro
+geometry: margin=2cm
+---</code></pre>
+<p>După cum puteți vedea în ultima opțiune, am setat marginile să fie de
+doi centimetri. De-asemenea, am setat titlul și autorul și am specificat
+limba documentului, ceea ce ne va fi de folos mai târziu.</p>
+<h2 id="titlu">Formatarea unei foi de titlu</h2>
+<p>Pentru formatarea unei cărți simple, ideal, ne trebuie o foaie de
+titlu simplă, care să conțină titlul și autorul împreună cu alte detalii
+despre text. Totuși, dacă nu specificăm, Pandoc va interpreta foaia de
+titlu ca oricare altă pagină, punându-i inclusiv un număr la dosul
+paginii, ceea ce nu este ideal.<br />
+Pentru a specifica că dorim o foaie de titlu simplă, trebuie să folosim
+câteva comenzi specifice LaTeX:</p>
+<pre><code>\thispagestyle{empty}
+\newpage</code></pre>
+<p>Nota bene!<br />
+Titlul și autorul vor fi preluate din antetul pe care l-am scris mai
+sus. Puteți, de-asemenea, să introduceți anul publicării astfel:</p>
+<pre><code>date: 2025</code></pre>
+<h2 id="font">Schimbarea dimensiunii fontului</h2>
+<p>Pentru a mări dimensiunea fontului ne va trebui extensia <a
+href="https://ctan.org/pkg/extsizes?lang=en"><code>extsizes</code></a>*.</p>
+<p>Se specifică în antet folosirea extensiei și dimensiunea fontului pe
+care o doriți. O dimensiune bună pentru e-readere ar fi de 17pt:</p>
+<pre><code>documentclass: extarticle
+fontsize: 17pt</code></pre>
+<p>Puteți de-asemenea să schimbați familia fontului cu opțiunea
+<code>fontfamily:</code>.</p>
+<p><span class="small">*: Pe distribuțiile Linux bazate pe Debian,
+aceasta este inclusă în pachetele <code>texlive-latex-extra</code> și
+<code>texlive-latex-recommended</code>, pe care recomand să le
+instalați.</span></p>
+<h2 id="cuprins">Introducerea cuprinsului</h2>
+<p>Este, de-asemenea, util să avem un cuprins al documentului pentru a
+putea accesa părțile importante rapid. Și pentru această opțiune avem o
+comandă LaTeX, care va genera automat un cuprins cu tot cu legăturile
+spre capitole:</p>
+<pre><code>\tableofcontents</code></pre>
+<p>Nota bene!<br />
+Cuprinsul va avea un mic titlu înaintea legăturilor care depinde de
+limba documentului, motivul pentru care am inclus <code>lang: ro</code>
+în antet. Dacă nu specificăm limba documentului, cuprinsul va avea
+titlul englezesc „Contents”.</p>
+<h2 id="numerotare">Numerotarea paginilor</h2>
+<p>Folosind altă comandă LaTeX putem schimba stilul de numerotare al
+paginilor. De exemplu, pentru o prefață putem folosi numerotarea romană
+cu comanda <code>\pagenumbering{roman}</code>, iar pentru a ne întoarce
+la numerotarea în cifre arabe, folosim
+<code>\pagenumbering{arabic}</code>.</p>
+<h2 id="alineat">Setarea alineatelor</h2>
+<p>Pandoc folosește un stil de separare al alineatelor specific
+documentelor științifice. Pentru a folosi un stil mai familiar pentru
+cărți, trebuie să specificăm în antet folosirea alineatelor separate
+prin indentare:</p>
+<pre><code>indent: true</code></pre>
+<hr />
+<p>Acestea sunt câteva dintre funcțiile și opțiunile pe care le-am
+descoperit pe parcurs folosind Pandoc. Cu siguranță voi descoperi și mai
+multe funcții pe viitor, având în vedere că vorbim despre LaTeX ;). Am
+scris acest ghid pentru utilizatorii care deja stăpânesc bazele
+utilizării limbajului de marcare Markdown. Dacă doriți să învățați cum
+se folosește Markdown, vă recomand <a
+href="https://pandoc.org/chunkedhtml-demo/8-pandocs-markdown.html">ghidul</a>
+pe care l-am menționat la începutul articolului.</p>
+<p>Mult noroc și sper ca acest ghid să vă fie de ajutor!</p>
+	<hr/>
+	<p>email: <code>tescu [arond] tutamail [punct] com</code></p>
+	</div>
+</body>
+</html>
