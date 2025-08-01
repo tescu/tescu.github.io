@@ -6,7 +6,7 @@ lang: ro
 Acum ceva timp, am terminat de citit romanul ușor _Grădina cuvintelor_ de Makoto Shinkai.
 Am fost deseori fascinat de literatura romanelor ușoare japoneze (numite adesea _ranobe_,
 după termenul englezesc _light novel_), și consider că pot oferi un stil de lectură deosebit
-de plăcut.
+de plăcută.
 
 ::: pic
 
@@ -68,14 +68,14 @@ de dimensiunile relativ mici, animația originală poate fi văzută în retrosp
 acordată cititorului de a retrăi romanul și scenele sale puternice.
 
 [^takao1]: Traducere: <i>Când îşi aminteşte cum odată credea că poate creşte într-un timp de trei
-ani de liceu, se ruşinează. Cât de prost eram oricum? Lumea nu era atât de simplă, iar oamenii nu
-învaţă să se controleze aşa de uşor... Dacă autocontrolul este sau nu un semn de maturitate. Dar
-totuşi. Vreau să cresc într-o persoană mai bună, mai puternică deja.</i>
+ani de liceu, se rușinează. Cât de prost eram oricum? Lumea nu era atât de simplă, iar oamenii nu
+învață să se controleze aşa de ușor... Dacă autocontrolul este sau nu un semn de maturitate. Dar
+totuși. Vreau să cresc într-o persoană mai bună, mai puternică deja.</i>
 
-[^takao2]: Traducere: <i>Şezând în foişor, gândindu-se şi ascultând ploaia, Takao schiţează un design
-pentru o pereche de pantofi în caietul său. «Vreau să fiu atent cu oamenii care sunt importanţi pentru
-mine, să fiu amabil şi puternic, să fiu pregătit dacă vreodată mă trezesc singur, să găsesc o putere de
-nezdruncinat. Vreau să trăiesc cu adevărat.» În timp ce desenează linii cu cretă, se gândeşte la sine
+[^takao2]: Traducere: <i>Șezând în Foișor, gândindu-se și ascultând ploaia, Takao schițează un design
+pentru o pereche de pantofi în caietul său. «Vreau să fiu atent cu oamenii care sunt importanți pentru
+mine, să fiu amabil și puternic, să fiu pregătit dacă vreodată mă trezesc singur, să găsesc o putere de
+nezdruncinat. Vreau să trăiesc cu adevărat.» În timp ce desenează linii cu cretă, se gândește la sine
 în continuu.</i>
 
 [^yoshu]: Man'yōshū (în japoneză: 万葉集, lit. _„Colecția celor 1000 de frunze”_) este cea mai veche colecție
