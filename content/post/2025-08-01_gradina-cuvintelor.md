@@ -62,10 +62,17 @@ convins într-un final de sentimentele sale:
 
 > _Narukami no sukoshi toyomite / Furazu tomo / Ware wa todomaramu / Imoshi todomeba_[^p2]
 
-Chiar dacă romanul este o continuare și îmbunătățire a poveștii filmului original, acesta rămâne o
-operă de sine-stătătoare care poate fi citită fără a viziona filmul anterior. Chiar dacă este restrânsă
-de dimensiunile relativ mici, animația originală poate fi văzută în retrospectivă ca o ocazie unică
-acordată cititorului de a retrăi romanul și scenele sale puternice.
+În retrospectivă, filmul de animație original poate fi văzut ca o oportunitate
+unică acordată cititorului de-a retrăi povestea romanului și scenele sale
+puternice, dar și o perspectivă a procesului creativ în sine. Relația dintre
+film și roman este unică în cadrul acestei opere deoarece ambele pot fi
+savurate de sine stătător, fără a cunoaște în prealabil povestea sau personajele.
+
+Chiar dacă este restrânsă de dimensiunile sale relativ reduse, animația originală
+redă cu o subtilitate agreabilă detaliile importante ale poveștii. Romanul,
+astfel, are trăsătura remarcabilă de a (re)defini în linii mari micile observații,
+întrebări sau curiozități pe care spectatorul le-ar putea avea, fără a epuiza
+firul narativ sau pierde atenția cititorului.
 
 [^takao1]: Traducere: <i>Când îşi aminteşte cum odată credea că poate creşte într-un timp de trei
 ani de liceu, se rușinează. Cât de prost eram oricum? Lumea nu era atât de simplă, iar oamenii nu
