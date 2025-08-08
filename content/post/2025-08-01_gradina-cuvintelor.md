@@ -64,7 +64,7 @@ convins într-un final de sentimentele sale:
 
 În retrospectivă, filmul de animație original poate fi văzut ca o oportunitate
 unică acordată cititorului de-a retrăi povestea romanului și scenele sale
-puternice, dar și o perspectivă a procesului creativ în sine. Relația dintre
+puternice, dar și o perspectivă asupra procesului creativ în sine. Relația dintre
 film și roman este unică în cadrul acestei opere deoarece ambele pot fi
 savurate de sine stătător, fără a cunoaște în prealabil povestea sau personajele.
 

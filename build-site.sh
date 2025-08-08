@@ -54,25 +54,4 @@ done
 echo "[RUN] Building index.html..."
 envsubst < res/tmp/index.html > index.html
 
-# Art gallery
-echo "[RUN] Building gallery in art.html..."
-export illust=""
-export sketches=""
-export extra=""
-for draw in ./res/art/*.jpg; do
-	barename="$(basename $draw)"
-	title="$(sed 's/^...//' <<< "$barename")"
-	# debug
-	#printf "%s\n" "$barename ($title) -- $draw"
-	case "$barename" in
-		sk-*) export sketches="$sketches<div class=\"pic\"><a href=\"./res/art/$barename\"><img src=\"./res/art/$barename\"></a><p>${title%.jpg}</p></div>"
-		;;
-		il-*) export illust="$illust<div class=\"pic\"><a href=\"./res/art/$barename\"><img src=\"./res/art/$barename\"></a><p>${title%.jpg}</p></div>"
-		;;
-		ex-*) export extra="$extra<div class=\"pic\"><a href=\"./res/art/$barename\"><img src=\"./res/art/$barename\"></a><p>${title%.jpg}</p></div>"
-		;;
-	esac
-done
-envsubst < res/tmp/art.html > art.html
-
 printf "\v%s\n" "Done!"

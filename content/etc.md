@@ -1,6 +1,8 @@
 ---
 title: etc
 ---
+Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
+
 ## resurse {#resurse}
 
 - [Proiectul Gutenberg](https://www.gutenberg.org/ebooks/)\
@@ -62,3 +64,55 @@ title: etc
 
 - [Orthodox Road](https://www.orthodoxroad.com/)\
   Blog creștin-ortodox (în engleză)
+- [CozyNet](https://www.cozynet.org/)\
+  Articole plăcute despre minimalism și internetul vechi (în engleză)
+
+## autori
+
+Autori români:
+
+- Alexandru Vlahuță
+- George Bacovia
+- Ion Minulescu
+- Ion Pillat
+- Liviu Rebreanu
+  Pe lângă celebrul _Ion_, recomand și _Ciuleandra_
+- Mircea Eliade 
+- Mihai Eminescu
+- Nichita Stănescu
+  Primul poet pe care l-am citit când a început să mă intereseze poezia
+- Nicolae Iorga
+
+Autori străini:
+
+- Antoine de Saint-Exupéry
+- C.S. Lewis\
+  Recomand, în special, _Screwtape Letters_ și _Mere Christianity_
+- Dante Alighieri
+- G.K. Chesterton
+- Jonathan Swift
+- John Keats
+- Mary Shelley
+- William Blake
+- William Shakespeare
+
+## manga, LN, anime {#manga}
+
+Manga/LN/VN
+
+- **Sketchbook** (2002), Totan Kobako\
+  Probabil cel mai bun yonkoma (4koma) pe care l-am citit. Teme amuzante,
+  legate în mare parte de artă, dar și natură, literatură etc.
+- **The Garden of Words**, Makoto Shinkai
+- **Shooting Star Hill**, Ebi Shuumai II
+
+Anime
+
+- **Kino no Tabi** (2003), Keiichi Sigsawa\
+  Multe teme filosofice și literare cu personaje memorabile
+- **Trigun** (1998), Yasuhiro Nightow\
+  Probabil unul dintre animeurile cu cele mai multe teme creștine. Un echilibru
+  plăcut între comedie și suspans.
+- **FLCL** (2000-2001)\
+  Unul dintre clasicile [GAINAX](https://en.wikipedia.org/wiki/Gainax).
+  Animație excepțională și amuzantă 
