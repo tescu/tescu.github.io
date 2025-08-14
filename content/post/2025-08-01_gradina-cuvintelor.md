@@ -6,7 +6,7 @@ lang: ro
 Acum ceva timp, am terminat de citit romanul ușor _Grădina cuvintelor_ de Makoto Shinkai.
 Am fost deseori fascinat de literatura romanelor ușoare japoneze (numite adesea _ranobe_,
 după termenul englezesc _light novel_), și consider că pot oferi un stil de lectură deosebit
-de plăcută.
+de plăcut.
 
 ::: pic
 

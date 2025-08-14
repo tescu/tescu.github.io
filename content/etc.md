@@ -67,17 +67,19 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 - [CozyNet](https://www.cozynet.org/)\
   Articole plăcute despre minimalism și internetul vechi (în engleză)
 
-## autori
+## literatură
 
 Autori români:
 
+- **Alexandru Odobescu**
 - **Alexandru Vlahuță**
 - **George Bacovia**
 - **Grigore Băjenaru**\
   Mi-a plăcut enorm _Bună dimineața, băieți!_.
 - **Ion Budai-Deleanu**\
   Un scriitor cu mult înaintea vremii sale.
-- **Ion Minulescu**
+- **Ion Minulescu**\
+  _Corigent la limba română_... un roman vag autobiografic :) 
 - **Ion Pillat**
 - **Liviu Rebreanu**\
   Pe lângă celebrul _Ion_, recomand și _Ciuleandra_.
@@ -104,19 +106,24 @@ Autori străini:
 
 ## manga, LN, anime {#manga}
 
+Observație: În prezent, prefer mult mai mult manga și romane peste anime.
+
 - **Sketchbook** (2002), Totan Kobako\
   Cel mai bun yonkoma (4koma) pe care l-am citit până acum.
   Teme amuzante, legate în mare parte de artă, dar și natură, literatură etc.
 - **Koe no Katachi**, Yoshitoki Ôima\
-  Emoționant și memorabil.
-  Abordează într-un mod fascinant depresia și căința.
+  Emoționant și impresionant. Abordează fascinant depresia și căința.
+- **Someday's Dreamers** (2002), Norie Yamada\
+  Manga scurt (doar două volume) cu un final dulce-acrișor și scene memorabile.
+  Mi-au plăcut mult ilustrațiile realizate de Kumichi Yoshizuki.
 - **The Garden of Words**, Makoto Shinkai
 - **Shooting Star Hill**, Ebi Shuumai II
 
 Anime
 
 - **Kino no Tabi**, Keiichi Sigsawa\
-  Multe teme filosofice și literare cu personaje memorabile.
+  Multe teme filosofice și literare cu personaje memorabile. Fiecare episod este
+  un fel de poveste de sine stătătoare, abordând diverse idei și concepte.
 - **Trigun** (1998), Yasuhiro Nightow\
   Probabil unul dintre animeurile cu cele mai multe teme creștine.
   Un echilibru plăcut între comedie și suspans.
@@ -125,7 +132,10 @@ Anime
   Poveste foarte filosofică care preia unele idei sau motive creștine.
 - **Interstella 5555** (2003), Daft Punk + Leiji Matsumoto\
   Daft Punk + anime = awesome? 
-- **Nausicaä** (1984), Hayao Miyazaki
-- **Mononoke-hime** (1997), Hayao Miyazaki\
+- **Samurai Champloo** (2004), studio Manglobe\
+  Coloana sonoră realizată de compozitorul meu preferat, Nujabes.
+- **Nausicaä** (1984), Hayao Miyazaki (studio Ghibli)
+- **Mononoke-hime** (1997), Hayao Miyazaki (studio Ghibli)\
   Primul film Ghibli pe care l-am văzut.
 - **Violet Evergarden**
+
