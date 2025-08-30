@@ -4,12 +4,12 @@
 export updated=$(date '+%A, %d %B %Y')
 
 # Clean
-printf "%s\n" "Cleaning html files..."
+printf "%s\n" "[INIT] Cleaning html files..."
 [ -f "index.html" ] && rm *.html
 rm post/*
 
 # Pagini simple / Simple pages
-echo "[RUN] Building simple pages..."
+printf "%s\n" "[RUN] Building simple pages..."
 for page in ./content/*; do
 	# Obține numele simplu (fără locație)
 	barename="$(basename $page)"
@@ -17,15 +17,15 @@ for page in ./content/*; do
 	htmlpage="${barename%.md}.html"
 	# Verifică dacă este un fișier
 	if [ -f "$page" ]; then
-		printf "\t%s\n" "Building $barename..."
+		printf "\t%s\n" "[RUN] Building $barename..."
 		pandoc -s --toc --template=res/tmp/page.html "$page" -o "$htmlpage"
 	else
-		printf "%s\n" "INFO: Skipping $page (not a file)."
+		printf "%s\n" "[INFO] Skipping $page (not a file)."
 	fi
 done
 
 # Postări
-echo "[RUN] Buildings posts..."
+printf "%s\n" "[RUN] Buildings posts..."
 export articles=""
 for post in $(find ./content/post/ -type f | sort -r); do
 	# idem.
@@ -51,7 +51,39 @@ for post in $(find ./content/post/ -type f | sort -r); do
 done
 
 # Index
-echo "[RUN] Building index.html..."
+printf "%s\n" "[RUN] Building index.html..."
 envsubst < res/tmp/index.html > index.html
+
+# Galerie / Gallery
+printf "%s\n" "[RUN] Building gallery..."
+export il=""
+export pt=""
+export sk=""
+export ww=""
+
+for img in $(find res/art -type f); do
+	bname="$(basename $img)"
+	name="$(echo ${bname#*-} | tr '_' ' ')"
+
+	case "$(basename $img)" in
+		# ilustratii / illustrations
+		il-*)
+			export il="$il<div class=\"pic\"><a href=\"$img\"><img src=\"$img\"></a>${name%.*}</div>"
+		;;
+		# picturi / paintings
+		pt-*)
+			export pt="$pt<div class=\"pic\"><a href=\"$img\"><img src=\"$img\"></a>${name%.*}</div>"
+		;;
+		# schite / sketches
+		sk-*)
+			export sk="$sk<div class=\"pic\"><a href=\"$img\"><img src=\"$img\"></a>${name%.*}</div>"
+		;;
+		# altele (lemn / wood, etc)
+		ww-*)
+			export ww="$ww<div class=\"pic\"><a href=\"$img\"><img src=\"$img\"></a>${name%.*}</div>"
+		;;
+	esac
+done
+envsubst < res/tmp/gallery.html > gallery.html
 
 printf "\v%s\n" "Done!"
