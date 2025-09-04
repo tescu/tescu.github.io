@@ -104,13 +104,14 @@ Autori străini:
 - **William Blake**
 - **William Shakespeare**
 
-## manga, LN, anime {#manga}
+## manga, ranobe {#manga}
 
 Observație: În prezent, prefer mult mai mult manga și romane peste anime.
 
 - **Sketchbook** (2002), Totan Kobako\
   Cel mai bun yonkoma (4koma) pe care l-am citit până acum.
-  Teme amuzante, legate în mare parte de artă, dar și natură, literatură etc.
+  Teme amuzante, legate în mare parte de artă, dar și natură, viața cotidiană,
+  literatură etc.
 - **Koe no Katachi**, Yoshitoki Ôima\
   Emoționant și impresionant. Abordează fascinant depresia și căința.
 - **Someday's Dreamers** (2002), Norie Yamada\
@@ -119,7 +120,7 @@ Observație: În prezent, prefer mult mai mult manga și romane peste anime.
 - **The Garden of Words**, Makoto Shinkai
 - **Shooting Star Hill**, Ebi Shuumai II
 
-Anime
+## filme, seriale
 
 - **Kino no Tabi**, Keiichi Sigsawa\
   Multe teme filosofice și literare cu personaje memorabile. Fiecare episod este
@@ -130,6 +131,8 @@ Anime
 - **Haibane Renmei** (2002), Yoshitoshi ABe\
   Anime realizat de unul dintre ilustratorii mei preferați.
   Poveste foarte filosofică care preia unele idei sau motive creștine.
+- **Josee, the Tiger and the Fish** (2020), Kotaru Tamura + Sayaka Kuwamura\
+  După romanul omonim scris de Seiko Tanabe. Poveste emoționantă și captivantă.
 - **Interstella 5555** (2003), Daft Punk + Leiji Matsumoto\
   Daft Punk + anime = awesome? 
 - **Samurai Champloo** (2004), studio Manglobe\
