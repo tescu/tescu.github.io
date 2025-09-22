@@ -20,6 +20,8 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 
 - [QReferat](https://www.qreferat.com/)\
   Referate, documente și resurse gratuite pentru o pletoră de materii
+- [KOReader](https://koreader.rocks)\
+  Cel mai bun lector de cărți, libre (FLOSS) și compatibil cu dispozivele e-ink
 - [Poeții Noștri](https://poetii-nostri.ro/)\
   Poezii românești și din străinătate, cu traduceri în engleză
 - [Poezie.ro](https://www.poezie.ro/)\
@@ -44,6 +46,11 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 
 - [Wiktionary](https://www.wiktionary.org/)\
   Probabil cel mai amplu dicționar online, disponibil într-un număr mare de limbi
+- [StarDict Dictionaries](https://stardict.uber.space/)\
+  Dicționare utile pentru mai multe limbi, în special engleză, spaniolă, germană, coreeană și chineză.
+  Pot fi folosite cu KOReader, menționat mai sus
+- [ReaderDict](https://github.com/reader-dict/monolingual)\
+  Asemănător, dicționare monolingve preluate/interpretate din Wiktionary
 - [Omniglot](https://www.omniglot.com)\
   Resurse pentru mai mult de 2000 de limbi
 - [Latin Phrases (de Chile)](https://latin-phrases.dechile.net/)\
@@ -104,24 +111,53 @@ Autori străini:
 - **William Blake**
 - **William Shakespeare**
 
-## manga, ranobe {#manga}
+## artiști
 
-Observație: În prezent, prefer mult mai mult manga și romane peste anime.
+O listă non-exaustivă...
 
-- **Sketchbook** (2002), Totan Kobako\
-  Cel mai bun yonkoma (4koma) pe care l-am citit până acum.
-  Teme amuzante, legate în mare parte de artă, dar și natură, viața cotidiană,
-  literatură etc.
-- **Koe no Katachi**, Yoshitoki Ôima\
-  Emoționant și impresionant. Abordează fascinant depresia și căința.
-- **Someday's Dreamers** (2002), Norie Yamada\
-  Manga scurt (doar două volume) cu un final dulce-acrișor și scene memorabile.
-  Mi-au plăcut mult ilustrațiile realizate de Kumichi Yoshizuki.
-- **The Garden of Words**, Makoto Shinkai
-- **Shooting Star Hill**, Ebi Shuumai II
+### pictură
+
+- Vincent van Gogh
+- Briton Rivière\
+  V. [_Daniel in the Lion's Den_](https://commons.wikimedia.org/wiki/File:Daniel_in_the_Lions%27_Den,_by_Briton_Rivi%C3%A8re.jpg) & [_Requiescat_](https://commons.wikimedia.org/wiki/File:Briton_Rivi%C3%A8re_-_Requiescat_-_Google_Art_Project.jpg)
+- Ștefan Luchian
+- Isaac Levitan\
+  Stilul său m-a inspirat de multe ori în picturile mele.
+- Corneliu Baba
+- Nicolae Grigorescu\
+  Picturile sale emană miros de poezie și idilă...
+- Alexandre Cabanel
+- Sorin Ilfoveanu
+- El Greco
+
+### ilustratori
+
+- Anastasie Demian (v. revista Gândirea)
+- Gustave Doré
+- Chen Yuandu
+- Edward Poynter
+- Helen Hyde
+- [Alariko](https://cara.app/alariko/all)
+- Kumichi Yoshizuki
+- Yoshitoshi ABe
 
 ## filme, seriale
+### filme
 
+- **Șeful sectorului suflete** (1967), Gheorghe Vitanidis\
+  Unul dintre filmele mele preferate. Ador modul sublim în care combină idei din
+  filosofie și psihologie cu comedia. [*„Lumea ta e un pronume!”*](https://youtu.be/9Aqp8n3XbLo?feature=shared) (spoiler)
+- **Filip cel bun** (1975), Dan Pița
+- **Alo, aterizează străbunica!** (1981), Nicolae Corjos
+- **De ce are vulpea coadă** (1989), Cornel Diaconu\
+  Recomand filmul pentru o seară în familie.
+
+### animație
+
+- **Loving Vincent** (2017)\
+  Un film excepțional. Fiecare cadru a fost pictat în întregime pe pânze reale.
+- **Mononoke-hime** (1997), Hayao Miyazaki (studio Ghibli)\
+  Primul film Ghibli pe care l-am văzut.
 - **Kino no Tabi**, Keiichi Sigsawa\
   Multe teme filosofice și literare cu personaje memorabile. Fiecare episod este
   un fel de poveste de sine stătătoare, abordând diverse idei și concepte.
@@ -138,7 +174,18 @@ Observație: În prezent, prefer mult mai mult manga și romane peste anime.
 - **Samurai Champloo** (2004), studio Manglobe\
   Coloana sonoră realizată de compozitorul meu preferat, Nujabes.
 - **Nausicaä** (1984), Hayao Miyazaki (studio Ghibli)
-- **Mononoke-hime** (1997), Hayao Miyazaki (studio Ghibli)\
-  Primul film Ghibli pe care l-am văzut.
 - **Violet Evergarden**
 
+## benzi desenate, romane ușoare {#bd}
+
+- **Sketchbook** (2002), Totan Kobako\
+  Cel mai bun yonkoma (4koma) pe care l-am citit până acum.
+  Teme amuzante, legate în mare parte de artă, dar și natură, viața cotidiană,
+  literatură etc.
+- **Koe no Katachi**, Yoshitoki Ôima\
+  Emoționant și impresionant. Abordează fascinant depresia și căința.
+- **Someday's Dreamers** (2002), Norie Yamada\
+  Manga scurt (doar două volume) cu un final dulce-acrișor și scene memorabile.
+  Mi-au plăcut mult ilustrațiile realizate de Kumichi Yoshizuki.
+- **The Garden of Words**, Makoto Shinkai
+- **Shooting Star Hill**, Ebi Shuumai II

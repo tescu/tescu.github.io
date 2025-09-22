@@ -30,6 +30,7 @@ body {
     margin: auto;
 }
 
+h2 { border-bottom: 3px solid var(--hl); }
 a { color: var(--ln); }
 a:hover { color: var(--hl); }
 code { color: var(--cd); }
