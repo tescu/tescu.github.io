@@ -15,13 +15,17 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
   Colecție vastă de imagini
 - [Internet Archive](https://archive.org/)\
   În special util pentru căutarea de cărți, audio sau videouri educaționale
+- [Yojik](https://fsi-languages.yojik.eu/index.html)\
+  Resurse FSI (Foreign Service Institute) pentru studiul limbilor (în engleză)
 
 ## studiu, lectură {#studiu}
 
 - [QReferat](https://www.qreferat.com/)\
   Referate, documente și resurse gratuite pentru o pletoră de materii
 - [KOReader](https://koreader.rocks)\
-  Cel mai bun lector de cărți, libre (FLOSS) și compatibil cu dispozivele e-ink
+  Cel mai bun lector de cărți, libre (FLOSS) și compatibil cu dispozivele e-ink, Android, Linux etc.
+- [Readest](https://github.com/readest/readest)\
+  Lector de cărți compatibil cu ios/macos și libre.
 - [Poeții Noștri](https://poetii-nostri.ro/)\
   Poezii românești și din străinătate, cu traduceri în engleză
 - [Poezie.ro](https://www.poezie.ro/)\
@@ -47,7 +51,7 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 - [Wiktionary](https://www.wiktionary.org/)\
   Probabil cel mai amplu dicționar online, disponibil într-un număr mare de limbi
 - [StarDict Dictionaries](https://stardict.uber.space/)\
-  Dicționare utile pentru mai multe limbi, în special engleză, spaniolă, germană, coreeană și chineză.
+  Dicționare utile pentru mai multe limbi, în special engleză, spaniolă, germană, chineză etc.
   Pot fi folosite cu KOReader, menționat mai sus
 - [ReaderDict](https://github.com/reader-dict/monolingual)\
   Asemănător, dicționare monolingve preluate/interpretate din Wiktionary
@@ -105,6 +109,7 @@ Autori străini:
   Recomand, în special, _Screwtape Letters_ și _Mere Christianity_.
 - **Dante Alighieri**
 - **G.K. Chesterton**
+  Recomand _Tremendous Trifles_.
 - **Jonathan Swift**
 - **John Keats**
 - **Mary Shelley**
@@ -126,6 +131,8 @@ O listă non-exaustivă...
 - Corneliu Baba
 - Nicolae Grigorescu\
   Picturile sale emană miros de poezie și idilă...
+- Carl Bloch\
+  Recomand acest [mini-documentar](https://youtu.be/GSLZ3z3wYJo?si=ixCyaN8t9qex6l88) despre una dintre picturile sale.
 - Alexandre Cabanel
 - Sorin Ilfoveanu
 - El Greco
@@ -173,7 +180,8 @@ O listă non-exaustivă...
   Daft Punk + anime = awesome? 
 - **Samurai Champloo** (2004), studio Manglobe\
   Coloana sonoră realizată de compozitorul meu preferat, Nujabes.
-- **Nausicaä** (1984), Hayao Miyazaki (studio Ghibli)
+- **Nausicaä** (1984), Hayao Miyazaki (Studio Ghibli)
+- **Whisper of the Heart** (1995), Yoshifumi Kondô + Hayao Miyazaki (Studio Ghibli)
 - **Violet Evergarden**
 
 ## benzi desenate, romane ușoare {#bd}
