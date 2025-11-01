@@ -17,6 +17,8 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
   În special util pentru căutarea de cărți, audio sau videouri educaționale
 - [Yojik](https://fsi-languages.yojik.eu/index.html)\
   Resurse FSI (Foreign Service Institute) pentru studiul limbilor (în engleză)
+- [TESOL](https://joelswagman.blogspot.com/2003/09/t.html)\
+  Resurse utile pentru predarea limbii engleze.
 
 ## studiu, lectură {#studiu}
 
@@ -174,6 +176,8 @@ O listă non-exaustivă...
 - **Haibane Renmei** (2002), Yoshitoshi ABe\
   Anime realizat de unul dintre ilustratorii mei preferați.
   Poveste foarte filosofică care preia unele idei sau motive creștine.
+- **The House of Small Cubes** (2008), Kunio Katô\
+  Pur și simplu o animație sublimă.
 - **Josee, the Tiger and the Fish** (2020), Kotaru Tamura + Sayaka Kuwamura\
   După romanul omonim scris de Seiko Tanabe. Poveste emoționantă și captivantă.
 - **Interstella 5555** (2003), Daft Punk + Leiji Matsumoto\
