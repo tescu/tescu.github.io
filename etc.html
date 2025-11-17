@@ -1,253 +1,489 @@
-<!DOCTYPE html>
-<html lang="ro">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>etc | negoitescu</title>
-	<link rel="shortcut icon" href="./res/favicon.png">
-	<link href="./style.css" rel="stylesheet" type="text/css" media="all">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>etc</title>
+	<meta name="generator" content="Zim 0.75.2">
+	<meta name="viewport" content="width=device-width">
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek,latin-ext' rel='stylesheet' type='text/css'> -->
+	<![if !IE]>
+	<!-- comment out for IE since it spams the user with warnings -->
+	<script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
+	<script type='text/javascript'>
+		$(window).load(function(){$("#navigation").height( $("#content").height()+65 );});
+	</script>
+	<![endif]>
+	<style>
+		body, html {
+			height:100%;
+			font-family:'Open Sans', sans-serif;
+			line-height:1.5em;
+			font-weight:300;
+			background-color:#FAFAFA;
+			text-rendering:geometricPrecision;
+			margin:0;
+			padding:0;
+		}
+		.wrapper {
+			height:100%;
+			position:relative;
+		}
+		#navigation {
+			background-color:#F3F3F3;
+			display:inline-block;
+			border-right:1px solid #EAEAEA;
+			padding-right:65px;
+			padding-top:65px;
+			padding-left:25px;
+			position:relative;
+			float:left;
+			min-height:100%;
+		}
+		#content {
+			float:left;
+			display:inline-block;
+			position:absolute;
+			max-width:960px;
+			padding:65px;
+		}
+		#navigation ul {
+			margin-top:0;
+			margin-bottom:0;
+			padding-left:40px;
+		}
+		#navigation li {
+			list-style-type:none;
+		}
+		#navigation a {
+			text-decoration:none;
+			color:gray;
+		}
+		#navigation strong {
+			color:#4E9A06;
+			font-weight:400;
+		}
+		#navigation a:hover {
+			text-decoration:underline;
+		}
+		#content h1:nth-child(1) {
+			margin-top:0;
+			margin-bottom:0;
+		}
+		h1,h2,h3,h4,h5,h6 {
+			color:#4E9A06;
+			font-weight:300;
+			margin-top:0;
+			margin-bottom:0;
+		}
+		p {
+			margin-top:0;
+			margin-bottom:0;
+		}
+		#content a {
+			color:#CE5C00;
+		}
+		#content a {
+			text-decoration: none;
+		}
+		#content a:hover {
+			text-decoration: underline;
+		}
+		#content a:active {
+			text-decoration: underline;
+		}
+		#content strike {
+			color: grey;
+		}
+		#content u {
+			text-decoration: none;
+			background-color: yellow;
+		}
+		#content tt {
+			color: #2e3436;
+		}
+		#content pre {
+			color: #2e3436;
+			margin-left: 20px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.backlinks {
+			color:gray;
+		}
+		hr.footnotes {
+			width: 20%;
+			margin-left: 0;
+		}
+		@media print{
+			#navigation{
+				background-color:#FFF;
+			}
+		}
+
+		span.zim-tag {
+			color: #ce5c00;
+		}
+		div.zim-object {
+			border-style:solid;
+			border-width:1px;
+		}
+
+		.checked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8sMEGsKGkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEBUlEQVRIx62V22tdRRTGf7Nn73P2ybntnNOe3NqkPTGgLTVUUZF6QatSLOKTPgqCIqLgQ0H/A1sQQbBYCBb1QfAxiC8tSO1FqHkwJVKtjdTGNraUmObsc9nXmfGh7cGYpM1D5nHWzPetteZb3wg2eB2YqYm4zSadsMtoboiNBH/3TE0awx6j+MRoxoTg/IYRvP19TQrJS0bzhdHGSyKFkLTtjSKwMjyiEz43ynhtP6bdjBCWyFobAf7eT7VhNF/q1FRbjYjmUohlCVPwnB+6FUxMTJipqSmUUhhjEGKd3bMT4ks/Y6oLBK2Yth8hHYtCJXOix7Nf7xLMzc0xOzvLzp078TyPNE3viW3QJPXzhNWbxFFKHCmMhoLn/FHodd48vGfhapdAacXQlkFK5dL6wIUm6fuTZPuvqDQhaMUYYyiVyuQr6rXDexYuAdi3tSv1ZJNs/R/CaszzT+1na88uXFnCEnJVgivBNN8uTJKmHQI/ptOOcXNZzMz9mOqFs90OHpipWcYwlo5P4ebnuOkrvr5wgrH+h3im7y36MzuwRXYZeKha/OhP0EkadFoxQSdGSotedR/+XwMc2XvKdNUFOFqZx6LKZWIiwjgkikNmLp/hm8sH+K1zjFTHXfBYdTi+eJArzXM0GxFxoBDCopLvo/fqEwi1XPkWkGqjFo2TgB1jOYZUKZTS/D1/ncmLh7jon0IbRWoiTi59ymzzJEEQE3cStNZsGxqlfPE57MBbOR8fP3hDGalOO9fq2DlBvmZw8xa2IxACGn6TydlD/O6f5OzSV/zif0cYhLQaEXGkKBbz7Ov/AOlXV1cxgBJRI3fuSTrpTawt18kWIZN1CFuaONI0w0WOXfsI43YIggh/KUSlhqxrMz74AkOZcWBm9QkH+Gw8NDLuITi+m0yzhluSyJzBLcpblUhFxywSRAEtPwQjsKVN30CNh0uvYuOubSHLtN3J0TO1j0pmBNuFbFWRK0gyPRZpktL2I5JQkclKakNlnh54g6ocvevUr/Ai2a7wineEkcJupA3S1Wg0nVZM2E6wbEF5U5G9Q++wI7sfR7h3N8HVNstykBfzH+KJEZwiWD0aIwxCgJ0R1Mu7GXOeJSuK93bZtQIle4D9pUNU5DC5jEsu55AvZakM5NicGyEj8uuz8bUCQgj67QfY671P3vEoeC69gy695U1U7NG7XV0pUwBjDJa1/JJlWWxzHuflzQe5FJ/GsgUVuZ2t8lEkTvfc0aNHb72flBhjVicQQqCUuvM3/M+WDVguWBrMVdDXEGZlBVEUrVCU9d9s5+fnaTQa2PZyPxEIhJaI1EEoZwX4ncynp6fXrmB4eJjR0VFarRbNZnP9P9rt9gohqNVq1Ov1ZbF/AZGev3hLJ2/zAAAAAElFTkSuQmCC)}
+		.xchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8bDYnDxEwAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEK0lEQVRIx9WVS2hTWRjHf/eR3CY1nbxMH2YiZRQS6qO13YlMVxY3SnVcuNIBFezGpSADLoQqLu1sHJCqdCFSXFpw4YOCSH3BtFqttTNamabX3DS5bfO6uffMoglja3RGcDMHzuac7/z/53++//cd+L8P6VuCPQYZ8ADNgBd4J31DcDcQs+GnHByRocEDv0kfBSjAOlYCs11Q+gpwDegS8LMJ+3QIK0ATzEhV8Odnz5bzw8P4dJ25aJQ/WlvJ1df/K7hSLtOcTNI+Pk69rpMTgqIQhCDvh1/VSpw79+gRrRMTmLZNezLJJsPg+a5dmOEwQlFqg1sWG16/Jv7sGWXDwBACFQjC9HcwIMONKkGp4PGAJGEDS0IQmZlhnWnye3c3eiyGo6qr3WHbrJ+dJf7gAXI6zSIr72T7/fgzmT4FHnTBsgrQBfYvTU0km5vxz86iADnAm0rRPTWFt7cXZccOJJcLAGHb2K9ekT93jmwmwwdAAFpjI6Ntbfxw5879ag7l6o1sr5eHHR3IsRgeQK/M4sQE+YEB7JcvEY6zAj45SWFgAPPxYwzHoQxIkQjTPT0kIxE+Noj8sexFn4/xnh58iQTeSpHkHAdrbIzi0BCOrmNPTpK/eJHM3bt8sCyKQCiR4NWePWSiUZw1+ZLXJm4pFKLhzBlCsRh2RUXacVgeGaF47RrL58+zcP8+RrmMkCQinZ1EL1zAjERqmkH+tLYl1G3bCJw4QUjT0IA0MJfLMX/5MqmHD0nZNiUgtGULG/r7ccXjINWuWbnmqsuFu7sb/4EDNLlcBIEioNs2KUAFGmMxmk6dQm1tRZI+3xBqEkiShBQOox05Ql1nJ26gvuIUAWiKQnj/ftStW5Fk+YuF+NldsbBA4cYN9KdPmaso8Fc62ZJtk7l1C2t0FGdxESHE1xE4hkHh6lX0oSHSpRIewC/LrPf7CSgKNpCamkI/fZr8pUuIZBIcpyaBunahPp1mub+fDyMjGKUSChCsq6Nh717q9u2jbnSU0uAgRrFIwTThyhUCqRS+hgZKLS1fJvDm87SNjZGcnsYUAjcQ8vsJ9/Xh7u1FDgRQN20iks3iDA+zZFmYhQLqzZtsj8WY3L0baY2Sf55ICCKpFHUzM2SEQAJCHg+hY8fQDh5EDgRWDoRC1J88SePRo2geD0XAcBy8b98Sv3ePYDZbbf2rFQjLIphMsmDbaEBQVQkePox26BCSz7e6i4bDrDt+nGYhmBscpFAskheC4Js3bPR4qHphFYEnlcI7P4/jdqNpGu8TCe4oCsXr1z//F2ga3+/cSfTJE0qmSVYIsKzaOZDcbjKyzFIiwfvt21kMBLA07YsetzWNd+3tLLW0sH5igvT8PH9Go/z44kX+E4LGjg7GDYOcy4XlOEgLC//5P/5LCFzxOPLmzWyIx+m6fduu7v0NVGqyTSycKksAAAAASUVORK5CYII=)}
+		.unchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8qAt8h3m8AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA60lEQVRIx+2VsQqDMBRF70sCLg5OLoKgjk7+lJ/hh+STXBwcnRz8ArMEkrxOFktbaC3tULzTg5e8k5vADXDq70VbobXmvu/hvQczg4heHrJfXxQFuq67blZbMc8zpmlCXddIkgTOuZcBUko45zCOI6y1Nz2xFSEEZFmGOI7fGg4A3nsQEZqmuXOu9jallACAtm3fvmutNaIoAjM/dkBECCF89KCbk4eAb+kEnIAT8EsAM0OIz3hSyrssUvss8t5fg+uIrLXPs0gIgWVZYIyBUurQyYdheO4gz3NUVQVjDNZ1PfSjpWmKsixvehfB9GBZ3NndrgAAAABJRU5ErkJggg==)}
+		.migrated-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB+AKHREFA8vJSnkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAC1klEQVRIx+2VT0hUURTGf/e958w4Tc3TYowMw1GyEgwr1MqsFmbZIrIWQZsWJUjbdoHQpl3Qps0swnCRECQFYkR/TC1iKkqmfzAKTo2Vf8hoRsfR995tkRMT87RRWkUHHhy495zvnvvu933wP/75EKkkEAjIYDCIaZpIKRFCZN0kfX9xcTGtra2/irVUEolECIfDlJeXo+s6hmFkDaCqKoZhEAqFSCaTv60pqcSyLAoLC/F4PEtqDmCaJkIIKisrMybX0sdUVRWA5ubmPzdNjjI1cpXkZC/O1fV03PXgdDqRUtpPIITAsqxsDz0Z/3CZQv8uqo4N4C8/Tp2/DdM0MiZQlvk41OTkI/LW1SGtCVb5drD3eCc71wcA+VcAHA5vDd8+3UGakxiJV7i9pdQevU5T1R35pJ3MV5QW1pf+0kWBheJ2SWua8EQXZXsu4fVVYEz1sEKvof5EuxjoPvzpcRvrdp9C2gGMx6cpOHBmbImMesds7BZubwMVDTfXDnQ3vQfK7AC8wLfExMX5whyQc3q2OEnjGm5vE76SQxsfBLr77a7CNf+n0r/l6sSMtsBSnurckiIILCobAtVZhpF4gZF4jubaymj4Ch/fd380LE7bAnjc0NPxk2yqpmEuwGxF0ag+0k5uTpzZeBeaazvj0We8fXojainsb2xh2BZgbe0gSIllzSIUh63wfQ6dZ/O2fbjcKlOj58jJ3cVENESw5yErc9nf2MLQ4jwQAkV1Lqiq37/cZ9WaahJjF9AcmxiPDhLs7ePe23oOnmUwg2hSShQle96tKDjA2HAniusgo9FxnvY9Jxw7RWzGYy92QghM00x5g53qp9sHmtB58/o2umOI2NwGolMnMYUHIb7aAyiKwsjICLqu2/qBEIKUUAohMaSHSLyBSMoPTINQ6CX5+fn2AEVFRZSUlBCPx4nFYhl3L4RESjF/GEgX3pSj+Xw+/H7/b3U/AEOZFnp7O5+5AAAAAElFTkSuQmCC)}
+		ul {list-style-image: none}
+		/* ul rule needed to reset style for sub-bullets */
+
+	</style>
 </head>
+
 <body>
-	<div id="main">
-	<h2><a href="./">negoitescu</a><br/> ~/etc</h2>
-	<p>Linkuri, resurse și lucruri care îmi plac sau pe care le consider
-utile.</p>
-<h2 id="resurse">resurse</h2>
-<ul>
-<li><a href="https://www.gutenberg.org/ebooks/">Proiectul
-Gutenberg</a><br />
-Librărie online conținând cărți în mai multe limbi</li>
-<li><a href="https://librivox.org">LibriVox</a><br />
-Cărți audio aflate în domeniul public</li>
-<li><a href="https://based.cooking/">Based.Cooking</a><br />
-(în engleză) Rețete de gătit simple și practice</li>
-<li><a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia
-Commons</a><br />
-Colecție vastă de imagini</li>
-<li><a href="https://archive.org/">Internet Archive</a><br />
-În special util pentru căutarea de cărți, audio sau videouri
-educaționale</li>
-<li><a href="https://fsi-languages.yojik.eu/index.html">Yojik</a><br />
-Resurse FSI (Foreign Service Institute) pentru studiul limbilor (în
-engleză)</li>
-<li><a
-href="https://joelswagman.blogspot.com/2003/09/t.html">TESOL</a><br />
-Resurse utile pentru predarea limbii engleze.</li>
+	<div class="wrapper">
+		<div id="navigation"> <ul>
+<li><a href="./art.html" title="art" class="page">art</a></li>
+<li><b>etc</b></li>
+<li><a href="./index.html" title="index" class="page">index</a></li>
+<li><a href="./poems.html" title="poems" class="page">poems</a></li>
+<li><a href="./post.html" title="post" class="page">post</a></li>
 </ul>
-<h2 id="studiu">studiu, lectură</h2>
+ </div>
+		<div id="content">
+			<h1>etc <a name='etc'></a></h1>
+
+			<p>
+Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
+</p>
+<h2>resurse<a id="resurse" class="h_anchor"></a></h2>
 <ul>
-<li><a href="https://www.qreferat.com/">QReferat</a><br />
-Referate, documente și resurse gratuite pentru o pletoră de materii</li>
-<li><a href="https://koreader.rocks">KOReader</a><br />
-Cel mai bun lector de cărți, libre (FLOSS) și compatibil cu dispozivele
-e-ink, Android, Linux etc.</li>
-<li><a href="https://github.com/readest/readest">Readest</a><br />
-Lector de cărți compatibil cu ios/macos și libre.</li>
-<li><a href="https://poetii-nostri.ro/">Poeții Noștri</a><br />
-Poezii românești și din străinătate, cu traduceri în engleză</li>
-<li><a href="https://www.poezie.ro/">Poezie.ro</a><br />
-Și mai multe poezii și texte</li>
-<li><a href="https://jocuridecuvinte.ro/">Jocuri de cuvinte</a><br />
-Curiozități ale limbii române</li>
-</ul>
-<h2 id="crestinism">creștinism</h2>
+<li><a href="https://www.gutenberg.org/ebooks/" title="Proiectul Gutenberg" class="https">Proiectul Gutenberg</a>
 <ul>
-<li><a
-href="https://ro.orthodoxwiki.org/Pagina_principal%C4%83">OrthodoxWiki</a><br />
-Articole și texte despre credința ortodoxă și sfinți, în mai multe
-limbi</li>
-<li><a href="https://www.crestinortodox.ro/">CrestinOrtodox.ro</a><br />
-Portal creștin-ortodox: rugăciuni, articole, calendar ortodox etc.</li>
-<li><a href="https://bibleproject.com/Romanian/">BibleProject</a><br />
-Lecții și videoclipuri educaționale gratuite despre creștinism</li>
-<li><a href="https://www.youtube.com/@CSLewisDoodle">CSLewisDoodle
-(YouTube)</a><br />
-Scrierile autorului C. S. Lewis despre creștinism în format video (în
-engleză)</li>
-<li><a
-href="https://www.resursecrestine.ro/">ResurseCreșține.ro</a><br />
-Articole despre credință, resurse și unelte pentru lectura Bibliei</li>
-</ul>
-<h2 id="lingv">limbi străine</h2>
+<li>Librărie online conținând cărți în mai multe limbi</li>
+</ul></li>
+<li><a href="https://librivox.org" title="LibriVox" class="https">LibriVox</a>
 <ul>
-<li><a href="https://www.wiktionary.org/">Wiktionary</a><br />
-Probabil cel mai amplu dicționar online, disponibil într-un număr mare
-de limbi</li>
-<li><a href="https://stardict.uber.space/">StarDict
-Dictionaries</a><br />
-Dicționare utile pentru mai multe limbi, în special engleză, spaniolă,
-germană, chineză etc. Pot fi folosite cu KOReader, menționat mai
-sus</li>
-<li><a
-href="https://github.com/reader-dict/monolingual">ReaderDict</a><br />
-Asemănător, dicționare monolingve preluate/interpretate din
-Wiktionary</li>
-<li><a href="https://www.omniglot.com">Omniglot</a><br />
-Resurse pentru mai mult de 2000 de limbi</li>
-<li><a href="https://latin-phrases.dechile.net/">Latin Phrases (de
-Chile)</a><br />
-Fraze, citate și dictonuri latine (în engleză și spaniolă)</li>
-<li><a href="https://tatoeba.org/ro">Tatoeba</a><br />
-Colecție de propoziții și traduceri colaborativă și accesibilă</li>
-<li><a href="https://www.clozemaster.com/">Clozemaster</a><br />
-Învață peste 50 de limbi prin mici joculețe</li>
-</ul>
-<h2 id="fun">distractive</h2>
+<li>Cărți audio aflate în domeniul public</li>
+</ul></li>
+<li><a href="https://based.cooking/" title="Based.Cooking" class="https">Based.Cooking</a>
 <ul>
-<li><a href="https://www.culturagenerala.ro/acasa">Cultură
-Generală</a><br />
-Jocul celebru de cultură generală în română</li>
-<li><a href="https://babadum.com">Ba Ba Dum</a><br />
-Învață vocabularul mai multor limbi</li>
-</ul>
-<h2 id="blogs">bloguri</h2>
+<li>(în engleză) Rețete de gătit simple și practice</li>
+</ul></li>
+<li><a href="https://commons.wikimedia.org/wiki/Main_Page" title="Wikimedia Commons" class="https">Wikimedia Commons</a>
 <ul>
-<li><a href="https://www.orthodoxroad.com/">Orthodox Road</a><br />
-Blog creștin-ortodox (în engleză)</li>
-<li><a href="https://www.cozynet.org/">CozyNet</a><br />
-Articole plăcute despre minimalism și internetul vechi (în engleză)</li>
-</ul>
-<h2 id="literatură">literatură</h2>
-<p>Autori români:</p>
+<li>Colecție vastă de imagini</li>
+</ul></li>
+<li><a href="https://archive.org/" title="Internet Archive" class="https">Internet Archive</a>
 <ul>
-<li><strong>Alexandru Odobescu</strong></li>
-<li><strong>Alexandru Vlahuță</strong></li>
-<li><strong>George Bacovia</strong></li>
-<li><strong>Grigore Băjenaru</strong><br />
-Mi-a plăcut enorm <em>Bună dimineața, băieți!</em>.</li>
-<li><strong>Ion Budai-Deleanu</strong><br />
-Un scriitor cu mult înaintea vremii sale.</li>
-<li><strong>Ion Minulescu</strong><br />
-<em>Corigent la limba română</em>… un roman vag autobiografic :)</li>
-<li><strong>Ion Pillat</strong></li>
-<li><strong>Liviu Rebreanu</strong><br />
-Pe lângă celebrul <em>Ion</em>, recomand și <em>Ciuleandra</em>.</li>
-<li><strong>Mircea Eliade</strong></li>
-<li><strong>Mihai Eminescu</strong><br />
-Nu ar fi o listă corectă fără poetul național :)</li>
-<li><strong>Nichita Stănescu</strong><br />
-Primul poet pe care l-am citit când a început să mă intereseze
-poezia.</li>
-<li><strong>Nicolae Iorga</strong></li>
-<li><strong>Vasile Alecsandri</strong></li>
-</ul>
-<p>Autori străini:</p>
+<li>În special util pentru căutarea de cărți, audio sau videouri educaționale</li>
+</ul></li>
+<li><a href="https://fsi-languages.yojik.eu/index.html" title="Yojik" class="https">Yojik</a>
 <ul>
-<li><strong>Antoine de Saint-Exupéry</strong></li>
-<li><strong>C.S. Lewis</strong><br />
-Recomand, în special, <em>Screwtape Letters</em> și <em>Mere
-Christianity</em>.</li>
-<li><strong>Dante Alighieri</strong></li>
-<li><strong>G.K. Chesterton</strong> Recomand <em>Tremendous
-Trifles</em>.</li>
-<li><strong>Jonathan Swift</strong></li>
-<li><strong>John Keats</strong></li>
-<li><strong>Mary Shelley</strong></li>
-<li><strong>William Blake</strong></li>
-<li><strong>William Shakespeare</strong></li>
-</ul>
-<h2 id="artiști">artiști</h2>
-<p>O listă non-exaustivă…</p>
-<h3 id="pictură">pictură</h3>
+<li>Resurse FSI (Foreign Service Institute) pentru studiul limbilor (în engleză)</li>
+</ul></li>
+<li><a href="https://joelswagman.blogspot.com/2003/09/t.html" title="TESOL" class="https">TESOL</a>
 <ul>
-<li>Vincent van Gogh</li>
-<li>Briton Rivière<br />
-V. <a
-href="https://commons.wikimedia.org/wiki/File:Daniel_in_the_Lions%27_Den,_by_Briton_Rivi%C3%A8re.jpg"><em>Daniel
-in the Lion’s Den</em></a> &amp; <a
-href="https://commons.wikimedia.org/wiki/File:Briton_Rivi%C3%A8re_-_Requiescat_-_Google_Art_Project.jpg"><em>Requiescat</em></a></li>
-<li>Ștefan Luchian</li>
-<li>Isaac Levitan<br />
-Stilul său m-a inspirat de multe ori în picturile mele.</li>
-<li>Corneliu Baba</li>
-<li>Nicolae Grigorescu<br />
-Picturile sale emană miros de poezie și idilă…</li>
-<li>Carl Bloch<br />
-Recomand acest <a
-href="https://youtu.be/GSLZ3z3wYJo?si=ixCyaN8t9qex6l88">mini-documentar</a>
-despre una dintre picturile sale.</li>
-<li>Alexandre Cabanel</li>
-<li>Sorin Ilfoveanu</li>
-<li>El Greco</li>
+<li>Resurse utile pentru predarea limbii engleze.</li>
+</ul></li>
 </ul>
-<h3 id="ilustratori">ilustratori</h3>
+<br>
+<h2>studiu, lectură<a id="studiu-lectură" class="h_anchor"></a></h2>
 <ul>
-<li>Anastasie Demian (v. revista Gândirea)</li>
-<li>Gustave Doré</li>
-<li>Chen Yuandu</li>
-<li>Edward Poynter</li>
-<li>Helen Hyde</li>
-<li><a href="https://cara.app/alariko/all">Alariko</a></li>
-<li>Kumichi Yoshizuki</li>
-<li>Yoshitoshi ABe</li>
-</ul>
-<h2 id="filme-seriale">filme, seriale</h2>
-<h3 id="filme">filme</h3>
+<li><a href="https://www.qreferat.com/" title="QReferat" class="https">QReferat</a>
 <ul>
-<li><strong>Șeful sectorului suflete</strong> (1967), Gheorghe
-Vitanidis<br />
-Unul dintre filmele mele preferate. Ador modul sublim în care combină
-idei din filosofie și psihologie cu comedia. <a
-href="https://youtu.be/9Aqp8n3XbLo?feature=shared"><em>„Lumea ta e un
-pronume!”</em></a> (spoiler)</li>
-<li><strong>Filip cel bun</strong> (1975), Dan Pița</li>
-<li><strong>Alo, aterizează străbunica!</strong> (1981), Nicolae
-Corjos</li>
-<li><strong>De ce are vulpea coadă</strong> (1989), Cornel Diaconu<br />
-Recomand filmul pentru o seară în familie.</li>
-</ul>
-<h3 id="animație">animație</h3>
+<li>Referate, documente și resurse gratuite pentru o pletoră de materii</li>
+</ul></li>
+<li><a href="https://koreader.rocks" title="KOReader" class="https">KOReader</a>
 <ul>
-<li><strong>Loving Vincent</strong> (2017)<br />
-Un film excepțional. Fiecare cadru a fost pictat în întregime pe pânze
-reale.</li>
-<li><strong>Mononoke-hime</strong> (1997), Hayao Miyazaki (studio
-Ghibli)<br />
-Primul film Ghibli pe care l-am văzut.</li>
-<li><strong>Kino no Tabi</strong>, Keiichi Sigsawa<br />
-Multe teme filosofice și literare cu personaje memorabile. Fiecare
-episod este un fel de poveste de sine stătătoare, abordând diverse idei
-și concepte.</li>
-<li><strong>Trigun</strong> (1998), Yasuhiro Nightow<br />
-Probabil unul dintre animeurile cu cele mai multe teme creștine. Un
-echilibru plăcut între comedie și suspans.</li>
-<li><strong>Haibane Renmei</strong> (2002), Yoshitoshi ABe<br />
-Anime realizat de unul dintre ilustratorii mei preferați. Poveste foarte
-filosofică care preia unele idei sau motive creștine.</li>
-<li><strong>The House of Small Cubes</strong> (2008), Kunio Katô<br />
-Pur și simplu o animație sublimă.</li>
-<li><strong>Josee, the Tiger and the Fish</strong> (2020), Kotaru Tamura
-+ Sayaka Kuwamura<br />
-După romanul omonim scris de Seiko Tanabe. Poveste emoționantă și
-captivantă.</li>
-<li><strong>Interstella 5555</strong> (2003), Daft Punk + Leiji
-Matsumoto<br />
-Daft Punk + anime = awesome?</li>
-<li><strong>Samurai Champloo</strong> (2004), studio Manglobe<br />
-Coloana sonoră realizată de compozitorul meu preferat, Nujabes.</li>
-<li><strong>Nausicaä</strong> (1984), Hayao Miyazaki (Studio
-Ghibli)</li>
-<li><strong>Whisper of the Heart</strong> (1995), Yoshifumi Kondô +
-Hayao Miyazaki (Studio Ghibli)</li>
-<li><strong>Violet Evergarden</strong></li>
-</ul>
-<h2 id="bd">benzi desenate, romane ușoare</h2>
+<li>Cel mai bun lector de cărți, libre (FLOSS) și compatibil cu dispozivele e-ink, Android, Linux etc.</li>
+</ul></li>
+<li><a href="https://github.com/readest/readest" title="Readest" class="https">Readest</a>
 <ul>
-<li><strong>Sketchbook</strong> (2002), Totan Kobako<br />
-Cel mai bun yonkoma (4koma) pe care l-am citit până acum. Teme amuzante,
-legate în mare parte de artă, dar și natură, viața cotidiană, literatură
-etc.</li>
-<li><strong>Koe no Katachi</strong>, Yoshitoki Ôima<br />
-Emoționant și impresionant. Abordează fascinant depresia și căința.</li>
-<li><strong>Someday’s Dreamers</strong> (2002), Norie Yamada<br />
-Manga scurt (doar două volume) cu un final dulce-acrișor și scene
-memorabile. Mi-au plăcut mult ilustrațiile realizate de Kumichi
-Yoshizuki.</li>
-<li><strong>The Garden of Words</strong>, Makoto Shinkai</li>
-<li><strong>Shooting Star Hill</strong>, Ebi Shuumai II</li>
+<li>Lector de cărți compatibil cu mai multe platforme și libre.</li>
+</ul></li>
+<li><a href="https://poetii-nostri.ro/" title="Poeții Noștri" class="https">Poeții Noștri</a>
+<ul>
+<li>Poezii românești și din străinătate, cu traduceri în engleză</li>
+</ul></li>
+<li><a href="https://www.poezie.ro/" title="Poezie.ro" class="https">Poezie.ro</a>
+<ul>
+<li>Și mai multe poezii și texte</li>
+</ul></li>
+<li><a href="https://jocuridecuvinte.ro/" title="Jocuri de cuvinte" class="https">Jocuri de cuvinte</a>
+<ul>
+<li>Curiozități ale limbii române</li>
+</ul></li>
 </ul>
-	<hr/>
-	<p>email: <code>tescu [arond] tutamail [punct] com</code></p>
+<br>
+<h2>creștinism<a id="creștinism" class="h_anchor"></a></h2>
+<ul>
+<li><a href="https://ro.orthodoxwiki.org/Pagina_principal%C4%83" title="OrthodoxWiki" class="https">OrthodoxWiki</a>
+<ul>
+<li>Articole și texte despre credința ortodoxă și sfinți, în mai multe limbi</li>
+</ul></li>
+<li><a href="https://www.crestinortodox.ro/" title="CrestinOrtodox.ro" class="https">CrestinOrtodox.ro</a>
+<ul>
+<li>Portal creștin-ortodox: rugăciuni, articole, calendar ortodox etc.</li>
+</ul></li>
+<li><a href="https://bibleproject.com/Romanian/" title="BibleProject" class="https">BibleProject</a>
+<ul>
+<li>Lecții și videoclipuri educaționale gratuite despre creștinism</li>
+</ul></li>
+<li><a href="https://www.youtube.com/@CSLewisDoodle" title="CSLewisDoodle" class="https">CSLewisDoodle</a> (YouTube)
+<ul>
+<li>Scrierile autorului C. S. Lewis despre creștinism și alte subiecte în format video (în engleză) </li>
+</ul></li>
+</ul>
+<br>
+<h2>limbi străine<a id="limbi-străine" class="h_anchor"></a></h2>
+<ul>
+<li><a href="https://www.wiktionary.org/" title="Wiktionary" class="https">Wiktionary</a>
+<ul>
+<li>Probabil cel mai amplu dicționar online, disponibil într-un număr mare de limbi</li>
+</ul></li>
+<li><a href="https://stardict.uber.space/" title="StarDict Dictionaries" class="https">StarDict Dictionaries</a>
+<ul>
+<li>Dicționare utile pentru mai multe limbi, în special engleză, spaniolă, germană, chineză etc.</li>
+<li>Pot fi folosite cu KOReader, menționat mai sus</li>
+</ul></li>
+<li><a href="https://github.com/reader-dict/monolingual" title="ReaderDict" class="https">ReaderDict</a>
+<ul>
+<li>Asemănător, dicționare monolingve preluate/interpretate din Wiktionary</li>
+</ul></li>
+<li><a href="https://www.omniglot.com" title="Omniglot" class="https">Omniglot</a>
+<ul>
+<li>Resurse pentru mai mult de 2000 de limbi</li>
+</ul></li>
+<li><a href="https://latin-phrases.dechile.net/" title="Latin Phrases (de Chile)" class="https">Latin Phrases (de Chile)</a>
+<ul>
+<li>Fraze, citate și dictonuri latine (în engleză și spaniolă)</li>
+</ul></li>
+<li><a href="https://tatoeba.org/ro" title="Tatoeba" class="https">Tatoeba</a>
+<ul>
+<li>Colecție de propoziții și traduceri colaborativă și accesibilă</li>
+</ul></li>
+<li><a href="https://www.clozemaster.com/" title="Clozemaster" class="https">Clozemaster</a>
+<ul>
+<li>Învață peste 50 de limbi prin mici joculețe</li>
+</ul></li>
+</ul>
+<br>
+<h2>distractive<a id="distractive" class="h_anchor"></a></h2>
+<ul>
+<li><a href="https://www.culturagenerala.ro/acasa" title="Cultură Generală" class="https">Cultură Generală</a>
+<ul>
+<li>Jocul celebru de cultură generală în română</li>
+</ul></li>
+<li><a href="https://babadum.com" title="Ba Ba Dum" class="https">Ba Ba Dum</a>
+<ul>
+<li>Învață vocabularul mai multor limbi</li>
+</ul></li>
+</ul>
+<br>
+<h2>bloguri<a id="bloguri" class="h_anchor"></a></h2>
+<ul>
+<li><a href="https://www.orthodoxroad.com/" title="Orthodox Road" class="https">Orthodox Road</a>
+<ul>
+<li>Blog creștin-ortodox (în engleză)</li>
+</ul></li>
+<li><a href="https://www.cozynet.org/" title="CozyNet" class="https">CozyNet</a>
+<ul>
+<li>Articole plăcute despre minimalism și internetul vechi (în engleză)</li>
+</ul></li>
+</ul>
+<br>
+<h2>literatură<a id="literatură" class="h_anchor"></a></h2>
+<p>
+Autori români:
+</p>
+<ul>
+<li><b>Alexandru Odobescu</b></li>
+<li><b>Alexandru Vlahuță</b></li>
+<li><b>George Bacovia</b></li>
+<li><b>Grigore Băjenaru</b>
+<ul>
+<li>Mi-a plăcut enorm „<i>Bună dimineața, băieți!”</i>.</li>
+</ul></li>
+<li><b>Ion Budai-Deleanu</b>
+<ul>
+<li>Un scriitor cu mult înaintea vremii sale.</li>
+</ul></li>
+<li><b>Ion Minulescu</b>
+<ul>
+<li>„<i>Corigent la limba română”</i>... un roman vag autobiografic :) </li>
+</ul></li>
+<li><b>Ion Pillat</b></li>
+<li><b>Liviu Rebreanu</b>
+<ul>
+<li>Pe lângă celebrul „<i>Ion</i>”, recomand și <i>„Ciuleandra”</i>.</li>
+</ul></li>
+<li><b>Mircea Eliade</b></li>
+<li><b>Mihai Eminescu</b>
+<ul>
+<li>Nu ar fi o listă completă fără poetul național :)</li>
+</ul></li>
+<li><b>Nichita Stănescu</b>
+<ul>
+<li>Primul poet pe care l-am citit când a început să mă intereseze poezia.</li>
+</ul></li>
+<li><b>Nicolae Iorga</b></li>
+<li><b>Vasile Alecsandri</b></li>
+</ul>
+<br>
+<p>
+Autori străini:
+</p>
+<br>
+<ul>
+<li><b>Antoine de Saint-Exupéry</b></li>
+<li><b>C.S. Lewis</b>
+<ul>
+<li>Recomand, în special, <i>Screwtape Letters</i> și <i>Mere Christianity</i>.</li>
+</ul></li>
+<li><b>Dante Alighieri</b></li>
+<li><b>G.K. Chesterton</b>
+<ul>
+<li>Recomand <i>Tremendous Trifles</i>.</li>
+</ul></li>
+<li><b>Jonathan Swift</b></li>
+<li><b>John Keats</b></li>
+<li><b>Mary Shelley</b></li>
+<li><b>William Blake</b></li>
+<li><b>William Shakespeare</b></li>
+</ul>
+<br>
+<h2>artiști<a id="artiști" class="h_anchor"></a></h2>
+<p>
+O listă non-exaustivă...
+</p>
+<h3>pictură<a id="pictură" class="h_anchor"></a></h3>
+<ul>
+<li><b>Vincent van Gogh</b></li>
+<li><b>Briton Rivière</b></li>
+</ul>
+<p>
+  V. <a href="https://commons.wikimedia.org/wiki/File:Daniel_in_the_Lions%27_Den,_by_Briton_Rivi%C3%A8re.jpg" title="Daniel in the Lion's Den" class="https">Daniel in the Lion's Den</a> &amp; <a href="https://commons.wikimedia.org/wiki/File:Briton_Rivi%C3%A8re_-_Requiescat_-_Google_Art_Project.jpg" title="Requiescat" class="https">Requiescat</a>
+</p>
+<ul>
+<li><b>Ștefan Luchian</b></li>
+<li><b>Isaac Levitan</b>
+<ul>
+<li>Stilul său m-a inspirat de multe ori în picturile mele.</li>
+</ul></li>
+<li><b>Corneliu Baba</b></li>
+<li><b>Nicolae Grigorescu</b>
+<ul>
+<li>Picturile sale emană miros de poezie și idilă...</li>
+</ul></li>
+<li><b>Carl Bloch</b>
+<ul>
+<li>Recomand acest <a href="https://youtu.be/GSLZ3z3wYJo" title="mini-documentar" class="https">mini-documentar</a> despre una dintre picturile sale.</li>
+</ul></li>
+<li><b>Alexandre Cabanel</b></li>
+<li><b>Sorin Ilfoveanu</b></li>
+<li><b>El Greco</b></li>
+</ul>
+<br>
+<h3>ilustratori<a id="ilustratori" class="h_anchor"></a></h3>
+<ul>
+<li><b>Anastasie Demian</b> (v. revista Gândirea)</li>
+<li><b>Gustave Doré</b></li>
+<li><b>Chen Yuandu</b></li>
+<li><b>Edward Poynter</b></li>
+<li><b>Helen Hyde</b></li>
+<li><a href="https://cara.app/alariko/all" title="Alariko" class="https">Alariko</a></li>
+<li><b>Kumichi Yoshizuki</b></li>
+<li><b>Yoshitoshi ABe</b></li>
+</ul>
+<br>
+<h2>filme, seriale<a id="filme-seriale" class="h_anchor"></a></h2>
+<h3>filme<a id="filme" class="h_anchor"></a></h3>
+<ul>
+<li><b>Șeful sectorului suflete</b> (1967), Gheorghe Vitanidis
+<ul>
+<li>Unul dintre filmele mele preferate. Ador modul sublim în care combină idei din filosofie și psihologie cu comedia. <a href="https://youtu.be/9Aqp8n3XbLo" title="„Lumea ta e un pronume!”" class="https">„Lumea ta e un pronume!”</a> (spoiler)</li>
+</ul></li>
+<li><b>Filip cel bun</b> (1975), Dan Pița</li>
+<li><b>Alo, aterizează străbunica!</b> (1981), Nicolae Corjos</li>
+<li><b>De ce are vulpea coadă</b> (1989), Cornel Diaconu
+<ul>
+<li>Recomand filmul pentru o seară în familie.</li>
+</ul></li>
+</ul>
+<br>
+<h3>animație<a id="animație" class="h_anchor"></a></h3>
+<ul>
+<li><b>Loving Vincent</b> (2017)
+<ul>
+<li>Un film excepțional. Fiecare cadru a fost pictat în întregime pe pânze reale.</li>
+</ul></li>
+<li><b>Mononoke-hime</b> (1997), Hayao Miyazaki (studio Ghibli)
+<ul>
+<li>Primul film Ghibli pe care l-am văzut.</li>
+</ul></li>
+<li><b>Kino no Tabi</b>, Keiichi Sigsawa
+<ul>
+<li>Multe teme filosofice și literare cu personaje memorabile. Fiecare episod este un fel de poveste de sine stătătoare, abordând diverse idei și concepte.</li>
+</ul></li>
+<li><b>Trigun</b> (1998), Yasuhiro Nightow
+<ul>
+<li>Probabil unul dintre animeurile cu cele mai multe teme creștine. Un echilibru plăcut între comedie și suspans.</li>
+</ul></li>
+<li><b>Haibane Renmei</b> (2002), Yoshitoshi ABe
+<ul>
+<li>Anime realizat de unul dintre ilustratorii mei preferați. Poveste foarte filosofică care preia unele idei sau motive creștine.</li>
+</ul></li>
+<li><b>The House of Small Cubes</b> (2008), Kunio Katô</li>
+</ul>
+<p>
+  Pur și simplu o animație sublimă.
+</p>
+<ul>
+<li><b>Josee, the Tiger and the Fish</b> (2020), Kotaru Tamura + Sayaka Kuwamura
+<ul>
+<li>După romanul omonim scris de Seiko Tanabe. Poveste emoționantă și captivantă.</li>
+</ul></li>
+<li><b>Interstella 5555</b> (2003), Daft Punk + Leiji Matsumoto</li>
+</ul>
+<p>
+  Daft Punk + anime = awesome? 
+</p>
+<ul>
+<li><b>Samurai Champloo</b> (2004), studio Manglobe
+<ul>
+<li>Coloana sonoră realizată de compozitorul meu preferat, Nujabes.</li>
+</ul></li>
+<li><b>Nausicaä</b> (1984), Hayao Miyazaki (Studio Ghibli)</li>
+<li><b>Whisper of the Heart</b> (1995), Yoshifumi Kondô + Hayao Miyazaki (Studio Ghibli)</li>
+<li><b>Violet Evergarden</b></li>
+</ul>
+<br>
+<h2>benzi desenate, romane ușoare<a id="benzi-desenate-romane-ușoare" class="h_anchor"></a></h2>
+<ul>
+<li><b>Sketchbook</b> (2002), Totan Kobako
+<ul>
+<li>Cel mai bun yonkoma (4koma) pe care l-am citit până acum. Teme amuzante, legate în mare parte de artă, dar și natură, viața cotidiană, literatură etc.</li>
+</ul></li>
+<li><b>Koe no Katachi</b>, Yoshitoki Ôima
+<ul>
+<li>Emoționant și impresionant. Abordează fascinant depresia și căința.</li>
+</ul></li>
+<li><b>Someday's Dreamers</b> (2002), Norie Yamada
+<ul>
+<li>Manga scurt (doar două volume) cu un final dulce-acrișor și scene memorabile. Mi-au plăcut mult ilustrațiile realizate de Kumichi Yoshizuki.</li>
+</ul></li>
+<li><b>The Garden of Words</b>, Makoto Shinkai</li>
+<li><b>Shooting Star Hill</b>, Ebi Shuumai II</li>
+</ul>
+
+
+			<br>
+			<span class="backlinks">
+			</span>
+
+			
+		</div>
 	</div>
 </body>
 </html>

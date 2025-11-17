@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-11-17T15:52:36+02:00
+
+====== art ======
+
+===== ilustrații / illustrations =====
+{{../res/art/il-hills.jpg?width=500}}
+//hills//
+
+{{../res/art/il-cold_lake.jpg?width=500}}
+cold lake
+
+{{../res/art/il-waiting_for_the_bus.jpg?width=500}}
+waiting for the bus
+
+{{../res/art/il-windy.jpg?width=500}}
+windy plains
+
+===== schițe / sketches =====
+{{../res/art/sk-muzak.png?height=665}}
+muzak
+
+{{../res/art/sk-mesteacan.png?width=500}}
+mesteacăni
+
+===== lemn / wood =====
+{{../res/art/ww-imparatul_slavei.jpg?width=500}}
