@@ -15,7 +15,7 @@ Welcome to my personal webpage!
 * 2025.11.17: [[post:2025-11-17|Update]] (ro)
 * 2025.08.12: [[post:2025-08-12|20 de ani / 20 years old]] (ro/en)
 * 2025.08.01: [[post:2025-08-01|Grădina cuvintelor / The Garden of Words]] (ro)
-* 2025.07.14: [[post:2025-07-14|Soda Stereo y el Valor de la Autendicidad]] (es)
+* 2025.07.14: [[post:2025-07-14|Soda Stereo y el Valor de la Autenticidad]] (es)
 * 2025.07.07: [[post:2025-07-07|Învățarea limbilor mi-a schimbat viața / Learning languages changed my life]] (ro/en)
 * 2025.05.01: [[post:2025-05-01|Sonetul 65]] (ro/en)
 * 2025.02.15: [[post:2025-02-15|Note despre Pandoc]] (ro)

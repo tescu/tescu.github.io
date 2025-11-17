@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 Creation-Date: 2025-11-17T15:48:05+02:00
 
-====== Soda Stereo y el Valor de la Autendicidad ======
+====== Soda Stereo y el Valor de la Autenticidad ======
 
 	Toda creación y actividad creativa es afectada por los lados sentimentalos de nuestro ser humano. Eliminar este lado es eliminar el elemento más íntimo y especial de una creación. Parece que las partes más intrigantes en la obra de cualquier autor, artista o compositor son las que han sido influenzadas directamente por las emociones experimentadas y transferidas en papel, película o canción.
 
