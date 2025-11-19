@@ -11,6 +11,9 @@ Creation-Date: 2025-11-17T15:52:36+02:00
 {{../res/art/il-cold_lake.jpg?width=500}}
 cold lake
 
+{{../res/art/il-vince_malum_bono.jpg}}
+//Vince malum bono.// – Sf. Augustin
+
 {{../res/art/il-waiting_for_the_bus.jpg?width=500}}
 waiting for the bus
 
@@ -21,8 +24,8 @@ windy plains
 {{../res/art/sk-muzak.png?height=665}}
 muzak
 
-{{../res/art/sk-mesteacan.png?width=500}}
-mesteacăni
+{{../res/art/sk-weird-fishes.png}}
+weird fishes
 
 ===== lemn / wood =====
 {{../res/art/ww-imparatul_slavei.jpg?width=500}}

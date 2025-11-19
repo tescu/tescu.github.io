@@ -18,7 +18,7 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 * [[https://fsi-languages.yojik.eu/index.html|Yojik]]
 	* Resurse FSI (Foreign Service Institute) pentru studiul limbilor (în engleză)
 * [[https://joelswagman.blogspot.com/2003/09/t.html|TESOL]]
-	* Resurse utile pentru predarea limbii engleze.
+	* Resurse utile pentru predarea limbii engleze
 
 ===== studiu, lectură =====
 * [[https://www.qreferat.com/|QReferat]]
@@ -26,7 +26,7 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 * [[https://koreader.rocks|KOReader]]
 	* Cel mai bun lector de cărți, libre (FLOSS) și compatibil cu dispozivele e-ink, Android, Linux etc.
 * [[https://github.com/readest/readest|Readest]]
-	* Lector de cărți compatibil cu mai multe platforme și libre.
+	* Lector de cărți compatibil cu mai multe platforme și libre
 * [[https://poetii-nostri.ro/|Poeții Noștri]]
 	* Poezii românești și din străinătate, cu traduceri în engleză
 * [[https://www.poezie.ro/|Poezie.ro]]
@@ -68,10 +68,13 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 	* Învață vocabularul mai multor limbi
 
 ===== bloguri =====
+Majoritatea blogurilor de mai sus sunt în engleză. Din păcate, încă nu am găsit un blog în limba română care abordează teme asemănătoare.
 * [[https://www.orthodoxroad.com/|Orthodox Road]]
-	* Blog creștin-ortodox (în engleză)
+	* Blog creștin-ortodox
 * [[https://www.cozynet.org/|CozyNet]]
-	* Articole plăcute despre minimalism și internetul vechi (în engleză)
+	* Articole plăcute despre minimalism și internetul vechi
+* [[https://bisqwit.iki.fi/|Bisqwit]]
+	* Blogul unui programator old-school finlandez. Plin de aspecte fascinante sau mai puțin cunoscute despre tehnologie, în special Linux/UNIX, DOS și console retro (NES, SNES).
 
 ===== literatură =====
 Autori români:
@@ -79,14 +82,14 @@ Autori români:
 * **Alexandru Vlahuță**
 * **George Bacovia**
 * **Grigore Băjenaru**
-	* Mi-a plăcut enorm „//Bună dimineața, băieți!”//.
+	* Mi-a plăcut enorm „//Bună dimineața, băieți!”//
 * **Ion Budai-Deleanu**
 	* Un scriitor cu mult înaintea vremii sale.
 * **Ion Minulescu**
 	* „//Corigent la limba română”//... un roman vag autobiografic :) 
 * **Ion Pillat**
 * **Liviu Rebreanu**
-	* Pe lângă celebrul „//Ion//”, recomand și //„Ciuleandra”//.
+	* Pe lângă celebrul „//Ion//”, recomand și //„Ciuleandra”.//
 * **Mircea Eliade**
 * **Mihai Eminescu**
 	* Nu ar fi o listă completă fără poetul național :)
@@ -99,10 +102,10 @@ Autori străini:
 
 * **Antoine de Saint-Exupéry**
 * **C.S. Lewis**
-	* Recomand, în special, //Screwtape Letters// și //Mere Christianity//.
+	* Recomand, în special, //Screwtape Letters// și //Mere Christianity.//
 * **Dante Alighieri**
 * **G.K. Chesterton**
-	* Recomand //Tremendous Trifles//.
+	* Recomand //Tremendous Trifles.//
 * **Jonathan Swift**
 * **John Keats**
 * **Mary Shelley**
@@ -114,7 +117,7 @@ O listă non-exaustivă...
 ==== pictură ====
 * **Vincent van Gogh**
 * **Briton Rivière**
-  V. [[https://commons.wikimedia.org/wiki/File:Daniel_in_the_Lions%27_Den,_by_Briton_Rivi%C3%A8re.jpg|Daniel in the Lion's Den]] & [[https://commons.wikimedia.org/wiki/File:Briton_Rivi%C3%A8re_-_Requiescat_-_Google_Art_Project.jpg|Requiescat]]
+	* [[https://commons.wikimedia.org/wiki/File:Daniel_in_the_Lions%27_Den,_by_Briton_Rivi%C3%A8re.jpg|Daniel in the Lion's Den]] & [[https://commons.wikimedia.org/wiki/File:Briton_Rivi%C3%A8re_-_Requiescat_-_Google_Art_Project.jpg|Requiescat]].
 * **Ștefan Luchian**
 * **Isaac Levitan**
 	* Stilul său m-a inspirat de multe ori în picturile mele.
