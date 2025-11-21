@@ -54,6 +54,10 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 	* Asemănător, dicționare monolingve preluate/interpretate din Wiktionary
 * [[https://www.omniglot.com|Omniglot]]
 	* Resurse pentru mai mult de 2000 de limbi
+* [[https://www.thelatinlibrary.com/|The Latin Library]]
+	* Texte și cărți în limba latină, în format HTML
+* [[https://www.textkit.com/|Textkit]]
+	* Resurse pentru limba latină și greaca antică
 * [[https://latin-phrases.dechile.net/|Latin Phrases (de Chile)]]
 	* Fraze, citate și dictonuri latine (în engleză și spaniolă)
 * [[https://tatoeba.org/ro|Tatoeba]]
@@ -71,6 +75,7 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 Majoritatea blogurilor de mai sus sunt în engleză. Din păcate, încă nu am găsit un blog în limba română care abordează teme asemănătoare.
 * [[https://www.orthodoxroad.com/|Orthodox Road]]
 	* Blog creștin-ortodox
+* [[https://mcdim.xyz/|Michael Constantine Dimopoulos]]
 * [[https://www.cozynet.org/|CozyNet]]
 	* Articole plăcute despre minimalism și internetul vechi
 * [[https://bisqwit.iki.fi/|Bisqwit]]
