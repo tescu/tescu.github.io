@@ -3,13 +3,11 @@ Wiki-Format: zim 0.6
 Creation-Date: 2025-11-17T15:51:35+02:00
 
 ====== poeme / poems ======
-
 O culegere a câtorva haiku și poeme scrise de mine.  
 A collection of some haikus and poems written by me.
 
 ===== haiku =====
 ==== română ====
-
 stă un trandafir
 lângă fereastră
 	oare cine îl udă?
@@ -27,7 +25,6 @@ multe cuvinte
 	impresii pe hârtie
 
 ==== english ====
-
 fuzzy lights here &
 	there in a sea of
 	emotions not yet chiseled
@@ -42,8 +39,6 @@ feelings left aside
 
 ===== poezie / poetry =====
 ==== română ====
-
-
 __25 feb. 2024__
 se perindă pe fereastră
 pașii rari de soare auriu

@@ -3,14 +3,10 @@ Wiki-Format: zim 0.6
 Creation-Date: 2025-11-17T14:29:33+02:00
 
 ===== negoitescu =====
-
 --------------------
-
 {{../res/hello.jpg?href=https%3A%2F%2Fnegoitescu.org}}
-
 Bine ați venit pe pagina mea!
 Welcome to my personal webpage!
-
 ==== articole / articles ====
 * 2025.11.17: [[post:2025-11-17|Update]] (ro)
 * 2025.08.12: [[post:2025-08-12|20 de ani / 20 years old]] (ro/en)
@@ -19,7 +15,6 @@ Welcome to my personal webpage!
 * 2025.07.07: [[post:2025-07-07|Învățarea limbilor mi-a schimbat viața / Learning languages changed my life]] (ro/en)
 * 2025.05.01: [[post:2025-05-01|Sonetul 65]] (ro/en)
 * 2025.02.15: [[post:2025-02-15|Note despre Pandoc]] (ro)
-
 --------------------
 Mă puteți contacta prin email la: tescu [arond] tutamail [punct] com
 Sursă website: [[https://github.com/tescu/tescu.github.io|GitHub]]
