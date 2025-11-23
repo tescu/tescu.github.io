@@ -9,7 +9,7 @@ Creation-Date: 2025-11-17T15:49:13+02:00
 
 Prima limbă străină pe care am studiat-o a fost franceza, o limbă pe care o mai vorbesc/citesc și azi, chiar dacă mai rar. Din propria experiență, pot spune că dacă nu aș fi învățat franceza, probabil că nici nu aș fi descoperit pasiunea mea pentru lingvistică, filologie și filosofie. Am fost fascinat de literatura și filosofia franceză și, pe parcurs, am realizat multe aspecte fascinante despre limbile indo-europene și celelalte familii lingvistice, curentele de gândire filosofie, apologetică creștină și istoria artei. Iar epopeea mea prin lumea filosofiei și literaturii a plecat de la prima mea lectură în limba franceză: //„Micul prinț”// de Antoine de Saint-Exupéry, când aveam în jur de 15 ani.
 
-{{../../res/prince.jpg}}
+{{../../_resources/prince.jpg}}
 //Un jour, j'ai vu le soleil se coucher quarante-trois fois !*//
 
 Pentru a înțelege mai bine situația, înainte de a citi acest mic roman, nu prea eram cineva pasionat de lectură. Nu aș putea spune că //nu-mi plăcea// cititul, dar pur și simplu mă interesau mai mult artele vizuale, pe care încă le iubesc, și nu eram conștient de cât de conectate erau desenele, picturile și animația de literatură și filosofie. Până la citirea primei pagini, credeam că literatura era o altă „bestie” pe care nu doream încă să o descopăr; dar cât de greșit era raționamentul meu!
@@ -30,7 +30,7 @@ The learning and study of foreign languages and cultures is currently one of my 
 
 The first foreign language I have studied was French, a language I still speak/read today, albeit rarely. From my personal experience, I can say that if I had not learnt French, I would have probably never discovered my passion for linguistics, philology, and philosophy. I was fascinated by French literature and philosophy and, along the way, I have found many fascinating aspects of Indo-European and other language families, schools of thought, Christian apologetics, and the history of art. And my entire odyssey across philosophy and literature all started from my first French lecture: //"The Little Prince"// by Antoine de Saint-Exupéry, when I was around 15.
 
-{{../../res/prince.jpg}}
+{{../../_resources/prince.jpg}}
 //Un jour, j'ai vu le soleil se coucher quarante-trois fois !*//
 
 For context, before reading this little novella, I was not really interested in reading anything at all. It wasn't necessarilly that I //disliked// reading, I just was more interested in visual arts, which still is my favourite subject, and I was unaware just how connected drawings, paintings, and animation were to literature and philosophy. Up until opening this small book, I had thought that literature was an entirely different beast that I just wasn't interested in fighting at that moment, but was I misguided in that thought!

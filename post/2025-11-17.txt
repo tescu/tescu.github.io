@@ -10,7 +10,7 @@ Am decis să rescriu întregul sait sub formatul [[https://vimwiki.github.io/|vi
 
 Așadar, așteptați-vă la postări noi cât de curând!
 
-{{../../res/zim.png?width=500}}
+{{../../_resources/zim.png}}
 ^{Zim în acțiune!}
 
 Pentru cei interesați de partea tehnică a noului sait, principalul avantaj al acestei configurări este posibilitatea de-a edita vizual întregul sait, în stilul unui editor WYSIWYG (What You See Is What You Get), adică nu mai sunt nevoit să mă folosesc de un browser web sau alte unelte externe pentru a vizualiza modificările pe care le realizez și nu mai trebuie să scriu conținutul paginilor manual folosind Markdown sau HTML. Pe scurt, mi-am eliminat o mare parte din munca asociată publicării pe sait!

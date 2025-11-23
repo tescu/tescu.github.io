@@ -5,27 +5,27 @@ Creation-Date: 2025-11-17T15:52:36+02:00
 ====== art ======
 
 ===== ilustrații / illustrations =====
-{{../res/art/il-hills.jpg?width=500}}
+{{../_resources/art/il-hills.jpg}}
 //hills//
 
-{{../res/art/il-cold_lake.jpg?width=500}}
+{{../_resources/art/il-cold_lake.jpg}}
 cold lake
 
-{{../res/art/il-vince_malum_bono.jpg}}
+{{../_resources/art/il-vince_malum_bono.jpg}}
 //Vince malum bono.// – Sf. Augustin
 
-{{../res/art/il-waiting_for_the_bus.jpg?width=500}}
+{{../_resources/art/il-waiting_for_the_bus.jpg}}
 waiting for the bus
 
-{{../res/art/il-windy.jpg?width=500}}
+{{../_resources/art/il-windy.jpg}}
 windy plains
 
 ===== schițe / sketches =====
-{{../res/art/sk-muzak.png?height=665}}
+{{../_resources/art/sk-muzak.png}}
 muzak
 
-{{../res/art/sk-weird-fishes.png}}
+{{../_resources/art/sk-weird-fishes.png}}
 weird fishes
 
 ===== lemn / wood =====
-{{../res/art/ww-imparatul_slavei.jpg?width=500}}
+{{../_resources/art/ww-imparatul_slavei.jpg}}

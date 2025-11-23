@@ -4,7 +4,7 @@ Creation-Date: 2025-11-17T14:29:33+02:00
 
 ===== negoitescu =====
 --------------------
-{{../res/hello.jpg?href=https%3A%2F%2Fnegoitescu.org}}
+{{../_resources/hello.jpg?href=https%3A%2F%2Fnegoitescu.org}}
 Bine ați venit pe pagina mea!
 Welcome to my personal webpage!
 ==== articole / articles ====
@@ -18,4 +18,4 @@ Welcome to my personal webpage!
 --------------------
 Mă puteți contacta prin email la: tescu [arond] tutamail [punct] com
 Sursă website: [[https://github.com/tescu/tescu.github.io|GitHub]]
-{{../res/cc-by-nc-sa.png?href=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-sa%2F4.0%2F}}
+{{../_resources/cc-by-nc-sa.png?href=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-sa%2F4.0%2F}}

@@ -6,12 +6,12 @@ Creation-Date: 2025-11-17T15:50:01+02:00
 
 Semestrul anterior, am început folosirea unei noi metode de a crea și edita articole și cărți, anume [[https://pandoc.org/|Pandoc]], care permite, pe lângă altele, folosirea limbajului de marcare Markdown concomitent cu funcțiile motorului [[https://www.latex-project.org/|LaTex]], pe care Pandoc rulează.
 
-{{../../res/pandoc.jpg?width=500}}
+{{../../_resources/pandoc.jpg}}
 Exemplu utilizare Pandoc
 
 Site-ul oficial Pandoc conține un [[https://pandoc.org/chunkedhtml-demo/8-pandocs-markdown.html|ghid]] destul de amănunțit, dar a trebuit să caut mai multe informații și din alte surse pentru unele funcții de care am avut nevoie în redactarea unei mici cărți în Pandoc. Așadar, voi trece peste toate funcțiile pe care le-am descoperit până acum și unele sfaturi.
 
-//💾 Puteți descărca un exemplu care conține toate funcțiile pe care le-am menționat [[../../res/Pandoc.md|aici]] și documentul precompilat într-un PDF [[../../res/Pandoc.pdf|aici]].//
+//💾 Puteți descărca un exemplu care conține toate funcțiile pe care le-am menționat [[../../_resources/Pandoc.md|aici]] și documentul precompilat într-un PDF [[../../_resources/Pandoc.pdf|aici]].//
 
 ===== Pentru început... =====
 Fără vreo modificare, Pandoc va folosi tema standard a motorului LaTex, deci documentele vor avea marginile foarte mari. Pentru a rezolva asta, trebuie să includem un antet cu marginile specificate. În acest antet, putem seta și alte opțiuni ale documentului care ne pot fi utile:
