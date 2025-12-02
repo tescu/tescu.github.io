@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>negoitescu</title>
+	<link rel="shortcut icon" href="./res/favicon.png">
+	<link href="./res/style.css" rel="stylesheet" type="text/css" media="all">
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			/* Display a random image on each page load */
+			const images = [
+				'./res/hello/01.jpg',
+				'./res/hello/02.jpg',
+				'./res/hello/03.jpg',
+				'./res/hello/04.jpg',
+				'./res/hello/05.jpg',
+				'./res/hello/06.jpg',
+				'./res/hello/07.jpg',
+				'./res/hello/08.jpg',
+				'./res/hello/09.jpg',
+			];
+
+			const imgel = document.getElementById('randimg');
+			const rnd = Math.floor(Math.random() * images.length);
+
+			imgel.src = images[rnd];
+		});
+	</script>
+</head>
+<body>
+	<div id="main">
+	<h1><img style="width: 20%; display: inline" id="randimg" />  negoitescu</h1>
+	<p>Bine ați venit pe pagina mea!<br/>Welcome to my personal webpage!</p>
+
+	<p class="links">
+		<a href="./art.html">art</a>
+		<a href="./notes/">notes</a>
+		<a href="./poems.html">poems</a>
+		<a href="./etc.html">etc</a>
+		<a href="https://github.com/tescu">git</a>
+	</p>
+
+	<h2 id="blog">articole / articles</h2>
+	<ul>$articles</ul>
+	<hr/>
+	<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"><img style="float: right; max-width: 10%" src="./res/cc-by-nc-sa.png" /></a>
+	<p>Mă puteți contacta prin email la: <code>tescu [arond] tutamail [punct] com</code><br/>
+	<sup>Last updated: $updated</sup></p>
+	</div>
+</body>
+</html>

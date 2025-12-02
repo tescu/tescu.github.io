@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>negoitescu</title>
+	<link rel="shortcut icon" href="./res/favicon.png">
+	<link href="./res/style.css" rel="stylesheet" type="text/css" media="all">
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			/* Display a random image on each page load */
+			const images = [
+				'./res/hello/01.jpg',
+				'./res/hello/02.jpg',
+				'./res/hello/03.jpg',
+				'./res/hello/04.jpg',
+				'./res/hello/05.jpg',
+				'./res/hello/06.jpg',
+				'./res/hello/07.jpg',
+				'./res/hello/08.jpg',
+				'./res/hello/09.jpg',
+			];
+
+			const imgel = document.getElementById('randimg');
+			const rnd = Math.floor(Math.random() * images.length);
+
+			imgel.src = images[rnd];
+		});
+	</script>
+</head>
+<body>
+	<div id="main">
+	<h1><img style="width: 20%; display: inline" id="randimg" />  negoitescu</h1>
+	<p>Bine ați venit pe pagina mea!<br/>Welcome to my personal webpage!</p>
+
+	<p class="links">
+		<a href="./art.html">art</a>
+		<a href="./notes/">notes</a>
+		<a href="./poems.html">poems</a>
+		<a href="./etc.html">etc</a>
+		<a href="https://github.com/tescu">git</a>
+	</p>
+
+	<h2 id="blog">articole / articles</h2>
+	<ul><li><p><a href=post/2025-08-12_20-de-ani.html><em>20 de ani / 20 Years Old</em></a><br/>2025-08-12 | (ro, en) <img src="./res/ro.gif" title="(ro)" /><img src="./res/en.gif" title="(en)" /></p></li><li><p><a href=post/2025-08-01_gradina-cuvintelor.html><em>Grădina cuvintelor (The Garden of Words)</em></a><br/>2025-08-01 | (ro) <img src="./res/ro.gif" title="(ro)" /></p></li><li><p><a href=post/2025-07-14_nada-personal.html><em>Soda Stereo y la importancia del sentimentalismo </em></a><br/>2025-07-14 | (es) <img src="./res/es.gif" title="(es)" /></p></li><li><p><a href=post/2025-07-05_invatarea-limbilor.html><em>Cum învățarea limbilor străine mi-a schimbat viața</em></a><br/>2025-07-05 | (ro, en) <img src="./res/ro.gif" title="(ro)" /><img src="./res/en.gif" title="(en)" /></p></li><li><p><a href=post/2025-05-01_sonetul65.html><em>Sonetul 65 &mdash; despre eternitatea frumosului</em></a><br/>2025-05-01 | (ro, en) <img src="./res/ro.gif" title="(ro)" /><img src="./res/en.gif" title="(en)" /></p></li><li><p><a href=post/2025-02-15_pandoc.html><em>Note despre Pandoc</em></a><br/>2025-02-15 | (ro) <img src="./res/ro.gif" title="(ro)" /></p></li></ul>
+	<hr/>
+	<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"><img style="float: right; max-width: 10%" src="./res/cc-by-nc-sa.png" /></a>
+	<p>Mă puteți contacta prin email la: <code>tescu [arond] tutamail [punct] com</code><br/>
+	<sup>Last updated: marți, 02 decembrie 2025</sup></p>
+	</div>
+</body>
+</html>
