@@ -96,7 +96,7 @@ Made alike in one Image
 Worth a million words.
 ```
 
-### et cetera  ... {#et cetera...}
+### et cetera...
 
 __*???*__ „poemation metafizicoteologocosmolonigologic”
 
