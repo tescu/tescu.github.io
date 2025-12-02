@@ -1,8 +1,6 @@
 ---
 title: poems
 ---
-###### poeme / poems {#poeme / poems}
-
 O culegere a câtorva haiku și poeme scrise de mine. A collection of some
 haikus and poems written by me.
 
