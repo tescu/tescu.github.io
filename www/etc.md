@@ -93,6 +93,8 @@ am găsit un blog în limba română care abordează teme asemănătoare.
 -   [Orthodox Road](https://www.orthodoxroad.com/)
     -   Blog creștin-ortodox
 -   [Michael Constantine Dimopoulos](https://mcdim.xyz/)
+-   [Denshi](https://denshi.org/)
+    - Conținut educativ și plăcut + sfaturi utile despre viață. 
 -   [CozyNet](https://www.cozynet.org/)
     -   Articole plăcute despre minimalism și internetul vechi
 -   [Bisqwit](https://bisqwit.iki.fi/)
