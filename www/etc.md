@@ -175,7 +175,7 @@ O listă non-exaustivă\...
 -   **Kumichi Yoshizuki**
 -   **Yoshitoshi ABe**
 
-### filme, seriale {#filme, seriale}
+### filme, seriale
 
 #### filme
 
@@ -187,6 +187,9 @@ O listă non-exaustivă\...
 -   **Alo, aterizează străbunica!** (1981), Nicolae Corjos
 -   **De ce are vulpea coadă** (1989), Cornel Diaconu
     -   Recomand filmul pentru o seară în familie.
+-   **Scara** (2021), Vlad Păunescu
+    -   Inspirat din fapte și întâmplări reale, mai anume viața actorului
+        devenit preot Dragoș Pâslaru.
 
 #### animație
 
