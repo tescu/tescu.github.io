@@ -134,10 +134,13 @@ Autori străini:
     -   Recomand, în special, __Screwtape Letters__ și __Mere Christianity__.
 -   **Dante Alighieri**
 -   **G.K. Chesterton**
-    -   Recomand __Tremendous Trifles__.
+    -   Unul dintre autorii mei preferați. Recomand __Tremendous Trifles__.
+-   **Gerard Manley Hopkins**
 -   **Jonathan Swift**
 -   **John Keats**
 -   **Mary Shelley**
+-   **Roald Dahl**
+    -   Un scriitor excepțional.
 -   **William Blake**
 -   **William Shakespeare**
 
