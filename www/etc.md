@@ -65,6 +65,8 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
 -   [ReaderDict](https://github.com/reader-dict/monolingual)
     -   Asemănător, dicționare monolingve preluate/interpretate din
         Wiktionary
+-   [GoldenDict](https://cloud.freemdict.com/index.php/s/pgKcDcbSDTCzXCs)
+    -   Dicționare pentru un număr surprinzător de limbi, parte din arhiva FreeMDict.
 -   [Omniglot](https://www.omniglot.com)
     -   Resurse pentru mai mult de 2000 de limbi
 -   [The Latin Library](https://www.thelatinlibrary.com/)
