@@ -38,6 +38,8 @@ Linkuri, resurse și lucruri care îmi plac sau pe care le consider utile.
     -   Și mai multe poezii și texte
 -   [Jocuri de cuvinte](https://jocuridecuvinte.ro/)
     -   Curiozități ale limbii române
+-   [Babeș-Bolyai Korean Language and Literature](https://coreeanalettubbcluj.com/publications/)
+    -   Resurse în limba română pentru studiul limbii coreene. _화이팅!_
 
 ### creștinism
 
