@@ -1,23 +1,23 @@
+/* gruvbox light and dark */
 :root {
-	--bg:#FFFFFF;
-	--fg:#1C1C18;
-	--bd:#8696A2;
-	--ln:#796848;
-	--hl:#C7B6AA;
+	--bg:#fbf1c7;
+	--fg:#3c3836;
+	--bd:#928374;
+	--ln:#cc241d;
+	--hl:#076678;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg:#2C2C28;
-		--fg:#FFFFFF;
-		--bd:#505050;
-		--ln:#C7B6AA;
-		--hl:#796848;
+		--bg:#1d2021;
+		--fg:#ebdbb2;
+		--ln:#d79921;
+		--hl:#689d6a;
 	}
 }
 body {
 	background-color:var(--bg);
 	color:var(--fg);
-	font-family: sans-serif;
+	font-family: serif;
 	font-size: 1.1em;
 	line-height:1.5em;
 }
@@ -27,7 +27,7 @@ body {
     margin: auto;
 }
 
-h2 { border-bottom: 3px solid var(--hl); }
+h2 { color: var(--hl); }
 a { color: var(--ln); }
 a:hover { color: var(--hl); }
 code { color: var(--cd); }
